@@ -1,0 +1,1001 @@
+Employee ID,Name,Role,Department,Monthly Salary (EGP),Source,Referral Bonus,Referred By Name
+EG-EMP-1000,Tarek Reda,Frontend Dev,Engineering,43833,Direct,0,
+EG-EMP-1001,Mostafa Ali,ML Engineer,Data Science,56644,Employee Referral,10000,Tarek Reda
+EG-EMP-1002,Khaled Mahmoud,Data Scientist,Data Science,48157,LinkedIn,0,
+EG-EMP-1003,Khaled Mansour,ML Engineer,Data Science,36854,Recruiter,0,
+EG-EMP-1004,Hoda Soliman,Sales Executive,Sales/HR,35094,LinkedIn,0,
+EG-EMP-1005,Youssef Khalil,HR Specialist,Sales/HR,39433,LinkedIn,0,
+EG-EMP-1006,Omar Khalil,Sales Executive,Sales/HR,40658,Employee Referral,10000,Mostafa Ali
+EG-EMP-1007,Youssef Hassan,Data Analyst,Data Science,58436,Employee Referral,10000,Khaled Mansour
+EG-EMP-1008,Hoda Soliman,Data Scientist,Data Science,38452,Employee Referral,10000,Khaled Mansour
+EG-EMP-1009,Omar Said,DevOps,Engineering,38125,Employee Referral,10000,Youssef Hassan
+EG-EMP-1010,Mariam Mahmoud,Tech Lead,Engineering,83997,Employee Referral,17536,Hoda Soliman
+EG-EMP-1011,Dina Farid,Data Analyst,Data Science,61567,Recruiter,0,
+EG-EMP-1012,Yasmine Ali,DevOps,Engineering,39682,Employee Referral,10000,Khaled Mansour
+EG-EMP-1013,Nour Khalil,Frontend Dev,Engineering,51350,LinkedIn,0,
+EG-EMP-1014,Mariam Khalil,Backend Dev,Engineering,46180,Direct,0,
+EG-EMP-1015,Salma Soliman,QA Engineer,Engineering,37681,Direct,0,
+EG-EMP-1016,Ahmed Said,HR Specialist,Sales/HR,57567,Employee Referral,10000,Omar Khalil
+EG-EMP-1017,Youssef Khalil,HR Specialist,Sales/HR,63069,LinkedIn,0,
+EG-EMP-1018,Salma Ibrahim,Junior Dev,Engineering,30198,Direct,0,
+EG-EMP-1019,Mostafa Hassan,Data Scientist,Data Science,52949,LinkedIn,0,
+EG-EMP-1020,Mostafa Soliman,HR Specialist,Sales/HR,40547,Employee Referral,10000,Khaled Mansour
+EG-EMP-1021,Yasmine Farid,Data Analyst,Data Science,60734,LinkedIn,0,
+EG-EMP-1022,Hoda Khalil,Sales Executive,Sales/HR,57595,LinkedIn,0,
+EG-EMP-1023,Ahmed Mansour,HR Manager,Sales/HR,79807,Employee Referral,23292,Hoda Khalil
+EG-EMP-1024,Mostafa Mansour,DevOps,Engineering,62878,Employee Referral,10000,Nour Khalil
+EG-EMP-1025,Mariam Mansour,HR Specialist,Sales/HR,39633,Direct,0,
+EG-EMP-1026,Hoda Ibrahim,Data Analyst,Data Science,42572,LinkedIn,0,
+EG-EMP-1027,Mariam Soliman,Data Analyst,Data Science,54494,Direct,0,
+EG-EMP-1028,Nour Mahmoud,Account Manager,Sales/HR,85181,Direct,0,
+EG-EMP-1029,Nour Farid,Sales Executive,Sales/HR,44933,Recruiter,0,
+EG-EMP-1030,Nour Said,Tech Lead,Engineering,86765,Employee Referral,23733,Yasmine Ali
+EG-EMP-1031,Nour Mansour,ML Engineer,Data Science,49809,Recruiter,0,
+EG-EMP-1032,Kareem Mahmoud,Data Analyst,Data Science,46161,Employee Referral,10000,Mariam Soliman
+EG-EMP-1033,Tarek Ali,Sales Executive,Sales/HR,53504,Employee Referral,10000,Hoda Khalil
+EG-EMP-1034,Kareem Ali,HR Manager,Sales/HR,98605,Employee Referral,23906,Omar Said
+EG-EMP-1035,Tarek Ibrahim,Senior Dev,Engineering,116431,Direct,0,
+EG-EMP-1036,Laila Mahmoud,Data Scientist,Data Science,51584,Direct,0,
+EG-EMP-1037,Dina Mahmoud,HR Manager,Sales/HR,82556,LinkedIn,0,
+EG-EMP-1038,Laila Reda,Data Scientist,Data Science,63461,Employee Referral,10000,Mariam Soliman
+EG-EMP-1039,Dina Khalil,Frontend Dev,Engineering,61836,Direct,0,
+EG-EMP-1040,Khaled Ali,Sales Executive,Sales/HR,52232,Employee Referral,10000,Mariam Khalil
+EG-EMP-1041,Nour Ali,Data Analyst,Data Science,56655,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1042,Ahmed Reda,Account Manager,Sales/HR,122176,Recruiter,0,
+EG-EMP-1043,Nour Reda,ML Engineer,Data Science,39573,Direct,0,
+EG-EMP-1044,Laila Said,HR Manager,Sales/HR,129334,LinkedIn,0,
+EG-EMP-1045,Youssef Said,Senior Dev,Engineering,106817,Direct,0,
+EG-EMP-1046,Youssef Khalil,Sales Executive,Sales/HR,51155,LinkedIn,0,
+EG-EMP-1047,Tarek Mansour,Data Analyst,Data Science,61949,LinkedIn,0,
+EG-EMP-1048,Nour Mansour,Data Scientist,Data Science,39142,Employee Referral,10000,Omar Khalil
+EG-EMP-1049,Omar Mansour,Tech Lead,Engineering,134026,Employee Referral,17253,Tarek Ali
+EG-EMP-1050,Salma Farid,Data Analyst,Data Science,63967,Employee Referral,10000,Youssef Khalil
+EG-EMP-1051,Salma Khalil,HR Specialist,Sales/HR,39846,LinkedIn,0,
+EG-EMP-1052,Youssef Mansour,Frontend Dev,Engineering,53188,Employee Referral,10000,Tarek Mansour
+EG-EMP-1053,Dina Ibrahim,Backend Dev,Engineering,58482,LinkedIn,0,
+EG-EMP-1054,Tarek Reda,Senior Dev,Engineering,111322,Direct,0,
+EG-EMP-1055,Mariam Reda,Frontend Dev,Engineering,37651,Direct,0,
+EG-EMP-1056,Kareem Said,ML Engineer,Data Science,53381,Employee Referral,10000,Hoda Khalil
+EG-EMP-1057,Yasmine Ibrahim,ML Engineer,Data Science,51479,Employee Referral,10000,Nour Khalil
+EG-EMP-1058,Khaled Hassan,HR Specialist,Sales/HR,47940,Employee Referral,10000,Youssef Hassan
+EG-EMP-1059,Omar Ibrahim,Junior Dev,Engineering,30734,Employee Referral,5000,Nour Mansour
+EG-EMP-1060,Tarek Ali,Tech Lead,Engineering,132018,Employee Referral,15945,Nour Khalil
+EG-EMP-1061,Yasmine Khalil,Junior Dev,Engineering,23574,Direct,0,
+EG-EMP-1062,Mariam Ali,ML Engineer,Data Science,59554,Recruiter,0,
+EG-EMP-1063,Nour Hassan,Frontend Dev,Engineering,62584,Direct,0,
+EG-EMP-1064,Khaled Reda,Junior Dev,Engineering,31605,Recruiter,0,
+EG-EMP-1065,Nour Said,Sales Executive,Sales/HR,58072,Recruiter,0,
+EG-EMP-1066,Mariam Reda,Data Analyst,Data Science,62381,Direct,0,
+EG-EMP-1067,Mariam Hassan,ML Engineer,Data Science,61978,LinkedIn,0,
+EG-EMP-1068,Nour Ali,ML Engineer,Data Science,63561,Recruiter,0,
+EG-EMP-1069,Salma Reda,Data Analyst,Data Science,57187,Employee Referral,10000,Omar Said
+EG-EMP-1070,Khaled Mansour,Sales Executive,Sales/HR,56523,LinkedIn,0,
+EG-EMP-1071,Hoda Reda,Frontend Dev,Engineering,43247,Direct,0,
+EG-EMP-1072,Ahmed Reda,DevOps,Engineering,36835,LinkedIn,0,
+EG-EMP-1073,Mariam Ibrahim,HR Manager,Sales/HR,72790,LinkedIn,0,
+EG-EMP-1074,Yasmine Farid,Frontend Dev,Engineering,48588,Direct,0,
+EG-EMP-1075,Mostafa Mahmoud,HR Specialist,Sales/HR,37821,Recruiter,0,
+EG-EMP-1076,Ahmed Farid,HR Manager,Sales/HR,89320,LinkedIn,0,
+EG-EMP-1077,Nour Said,Data Analyst,Data Science,41919,Direct,0,
+EG-EMP-1078,Nour Ali,Data Scientist,Data Science,58304,LinkedIn,0,
+EG-EMP-1079,Youssef Khalil,Senior Dev,Engineering,71147,Recruiter,0,
+EG-EMP-1080,Nour Ali,HR Specialist,Sales/HR,47326,LinkedIn,0,
+EG-EMP-1081,Yasmine Said,Tech Lead,Engineering,70449,Employee Referral,22737,Yasmine Khalil
+EG-EMP-1082,Yasmine Ibrahim,DevOps,Engineering,45790,Employee Referral,10000,Tarek Reda
+EG-EMP-1083,Dina Soliman,DevOps,Engineering,51693,Recruiter,0,
+EG-EMP-1084,Hoda Khalil,Data Scientist,Data Science,59228,Employee Referral,10000,Salma Reda
+EG-EMP-1085,Nour Reda,ML Engineer,Data Science,58455,Employee Referral,10000,Mariam Reda
+EG-EMP-1086,Youssef Mahmoud,Frontend Dev,Engineering,46795,LinkedIn,0,
+EG-EMP-1087,Tarek Soliman,Account Manager,Sales/HR,96969,Employee Referral,23539,Tarek Mansour
+EG-EMP-1088,Laila Reda,Tech Lead,Engineering,83933,Recruiter,0,
+EG-EMP-1089,Kareem Mahmoud,Junior Dev,Engineering,31396,Employee Referral,5000,Youssef Khalil
+EG-EMP-1090,Mostafa Mansour,Data Scientist,Data Science,45021,Employee Referral,10000,Nour Reda
+EG-EMP-1091,Tarek Soliman,Account Manager,Sales/HR,113678,Direct,0,
+EG-EMP-1092,Ahmed Farid,DevOps,Engineering,56466,Employee Referral,10000,Salma Khalil
+EG-EMP-1093,Salma Reda,DevOps,Engineering,37361,LinkedIn,0,
+EG-EMP-1094,Dina Farid,Junior Dev,Engineering,21652,LinkedIn,0,
+EG-EMP-1095,Ahmed Said,Sales Executive,Sales/HR,48647,Recruiter,0,
+EG-EMP-1096,Ahmed Reda,Tech Lead,Engineering,106417,Employee Referral,21059,Nour Farid
+EG-EMP-1097,Yasmine Soliman,Account Manager,Sales/HR,128825,Employee Referral,23738,Ahmed Reda
+EG-EMP-1098,Yasmine Khalil,Data Analyst,Data Science,50805,Direct,0,
+EG-EMP-1099,Omar Soliman,Data Analyst,Data Science,40155,Employee Referral,10000,Omar Ibrahim
+EG-EMP-1100,Khaled Ibrahim,Junior Dev,Engineering,24591,Direct,0,
+EG-EMP-1101,Youssef Ali,ML Engineer,Data Science,59815,Employee Referral,10000,Mariam Ibrahim
+EG-EMP-1102,Khaled Mahmoud,Data Scientist,Data Science,59900,Employee Referral,10000,Youssef Khalil
+EG-EMP-1103,Mariam Soliman,Data Scientist,Data Science,56281,Employee Referral,10000,Ahmed Farid
+EG-EMP-1104,Khaled Said,Data Scientist,Data Science,42257,LinkedIn,0,
+EG-EMP-1105,Mariam Soliman,Data Analyst,Data Science,52506,Direct,0,
+EG-EMP-1106,Mariam Said,Sales Executive,Sales/HR,52419,Direct,0,
+EG-EMP-1107,Dina Ali,DevOps,Engineering,56931,Recruiter,0,
+EG-EMP-1108,Ahmed Soliman,Account Manager,Sales/HR,123497,Employee Referral,21395,Ahmed Reda
+EG-EMP-1109,Ahmed Khalil,HR Manager,Sales/HR,85510,Employee Referral,19276,Nour Mansour
+EG-EMP-1110,Mostafa Soliman,Account Manager,Sales/HR,127684,Employee Referral,20395,Tarek Ibrahim
+EG-EMP-1111,Hoda Mansour,HR Specialist,Sales/HR,43484,Recruiter,0,
+EG-EMP-1112,Khaled Farid,Backend Dev,Engineering,41747,Direct,0,
+EG-EMP-1113,Kareem Said,ML Engineer,Data Science,48574,Direct,0,
+EG-EMP-1114,Dina Hassan,ML Engineer,Data Science,61465,Employee Referral,10000,Ahmed Said
+EG-EMP-1115,Dina Mansour,Frontend Dev,Engineering,42956,Employee Referral,10000,Mariam Mansour
+EG-EMP-1116,Mariam Farid,Junior Dev,Engineering,30845,Employee Referral,5000,Khaled Reda
+EG-EMP-1117,Salma Mahmoud,Junior Dev,Engineering,30478,Recruiter,0,
+EG-EMP-1118,Salma Khalil,Sales Executive,Sales/HR,41991,Employee Referral,10000,Ahmed Reda
+EG-EMP-1119,Dina Khalil,Account Manager,Sales/HR,118346,Recruiter,0,
+EG-EMP-1120,Dina Farid,ML Engineer,Data Science,47374,Direct,0,
+EG-EMP-1121,Youssef Hassan,Senior Dev,Engineering,134642,Recruiter,0,
+EG-EMP-1122,Dina Farid,Frontend Dev,Engineering,35250,Employee Referral,10000,Hoda Soliman
+EG-EMP-1123,Salma Ali,HR Manager,Sales/HR,111964,Recruiter,0,
+EG-EMP-1124,Youssef Mansour,Data Scientist,Data Science,52026,Direct,0,
+EG-EMP-1125,Dina Reda,Sales Executive,Sales/HR,60130,Employee Referral,10000,Ahmed Mansour
+EG-EMP-1126,Youssef Khalil,ML Engineer,Data Science,41457,Direct,0,
+EG-EMP-1127,Mariam Soliman,Data Scientist,Data Science,61989,Employee Referral,10000,Ahmed Farid
+EG-EMP-1128,Mostafa Hassan,Data Scientist,Data Science,41220,Employee Referral,10000,Yasmine Said
+EG-EMP-1129,Kareem Reda,Senior Dev,Engineering,136416,Recruiter,0,
+EG-EMP-1130,Dina Soliman,Account Manager,Sales/HR,93612,Employee Referral,18108,Hoda Khalil
+EG-EMP-1131,Tarek Soliman,Sales Executive,Sales/HR,46334,Employee Referral,10000,Dina Farid
+EG-EMP-1132,Yasmine Said,Frontend Dev,Engineering,46262,Employee Referral,10000,Mostafa Soliman
+EG-EMP-1133,Salma Ibrahim,ML Engineer,Data Science,38533,Employee Referral,10000,Tarek Ali
+EG-EMP-1134,Salma Khalil,Junior Dev,Engineering,22206,Employee Referral,5000,Hoda Ibrahim
+EG-EMP-1135,Youssef Mansour,Data Scientist,Data Science,64621,Direct,0,
+EG-EMP-1136,Salma Khalil,HR Specialist,Sales/HR,59232,Direct,0,
+EG-EMP-1137,Mariam Ali,QA Engineer,Engineering,46086,Direct,0,
+EG-EMP-1138,Mostafa Soliman,Sales Executive,Sales/HR,43011,Direct,0,
+EG-EMP-1139,Mostafa Mansour,Data Analyst,Data Science,42424,Direct,0,
+EG-EMP-1140,Dina Mahmoud,Data Scientist,Data Science,58871,Employee Referral,10000,Khaled Ali
+EG-EMP-1141,Salma Khalil,HR Specialist,Sales/HR,61550,Employee Referral,10000,Nour Reda
+EG-EMP-1142,Kareem Farid,HR Manager,Sales/HR,84846,LinkedIn,0,
+EG-EMP-1143,Yasmine Ibrahim,Data Analyst,Data Science,46667,Recruiter,0,
+EG-EMP-1144,Mariam Farid,HR Manager,Sales/HR,132727,Recruiter,0,
+EG-EMP-1145,Kareem Mahmoud,Data Analyst,Data Science,56220,Recruiter,0,
+EG-EMP-1146,Kareem Mahmoud,HR Specialist,Sales/HR,55891,Employee Referral,10000,Mostafa Ali
+EG-EMP-1147,Kareem Ali,Account Manager,Sales/HR,116748,Employee Referral,24486,Tarek Soliman
+EG-EMP-1148,Kareem Reda,DevOps,Engineering,54280,LinkedIn,0,
+EG-EMP-1149,Hoda Reda,Account Manager,Sales/HR,93504,Employee Referral,19570,Dina Ibrahim
+EG-EMP-1150,Laila Mahmoud,Tech Lead,Engineering,108778,Employee Referral,16162,Tarek Ali
+EG-EMP-1151,Khaled Khalil,Backend Dev,Engineering,42501,Employee Referral,10000,Youssef Khalil
+EG-EMP-1152,Mostafa Reda,HR Specialist,Sales/HR,57126,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1153,Laila Hassan,Data Analyst,Data Science,48507,Employee Referral,10000,Dina Hassan
+EG-EMP-1154,Hoda Soliman,ML Engineer,Data Science,49346,Employee Referral,10000,Mariam Hassan
+EG-EMP-1155,Kareem Hassan,Sales Executive,Sales/HR,37201,Direct,0,
+EG-EMP-1156,Dina Hassan,HR Manager,Sales/HR,97667,Employee Referral,22366,Salma Ibrahim
+EG-EMP-1157,Mostafa Hassan,ML Engineer,Data Science,59780,Employee Referral,10000,Mostafa Mansour
+EG-EMP-1158,Yasmine Farid,DevOps,Engineering,44519,Direct,0,
+EG-EMP-1159,Hoda Soliman,Senior Dev,Engineering,115397,LinkedIn,0,
+EG-EMP-1160,Mostafa Soliman,Tech Lead,Engineering,124018,Employee Referral,20786,Mostafa Mansour
+EG-EMP-1161,Khaled Mansour,QA Engineer,Engineering,48628,Employee Referral,10000,Omar Khalil
+EG-EMP-1162,Mariam Hassan,Data Analyst,Data Science,45927,LinkedIn,0,
+EG-EMP-1163,Laila Ali,Backend Dev,Engineering,62581,Direct,0,
+EG-EMP-1164,Kareem Ali,Sales Executive,Sales/HR,39409,Employee Referral,10000,Mostafa Hassan
+EG-EMP-1165,Mariam Reda,Junior Dev,Engineering,23819,Employee Referral,5000,Salma Khalil
+EG-EMP-1166,Salma Mansour,ML Engineer,Data Science,57517,Recruiter,0,
+EG-EMP-1167,Hoda Khalil,HR Specialist,Sales/HR,61990,LinkedIn,0,
+EG-EMP-1168,Hoda Reda,Senior Dev,Engineering,137910,Recruiter,0,
+EG-EMP-1169,Yasmine Soliman,ML Engineer,Data Science,41060,Employee Referral,10000,Laila Reda
+EG-EMP-1170,Dina Reda,Junior Dev,Engineering,25025,Employee Referral,5000,Tarek Soliman
+EG-EMP-1171,Hoda Khalil,Frontend Dev,Engineering,55896,LinkedIn,0,
+EG-EMP-1172,Dina Hassan,Sales Executive,Sales/HR,45488,Employee Referral,10000,Nour Khalil
+EG-EMP-1173,Laila Said,DevOps,Engineering,57329,Employee Referral,10000,Dina Hassan
+EG-EMP-1174,Khaled Said,Account Manager,Sales/HR,94953,Recruiter,0,
+EG-EMP-1175,Ahmed Khalil,ML Engineer,Data Science,57075,Employee Referral,10000,Ahmed Farid
+EG-EMP-1176,Yasmine Soliman,Data Scientist,Data Science,57914,Employee Referral,10000,Mostafa Mansour
+EG-EMP-1177,Mostafa Soliman,DevOps,Engineering,45498,Employee Referral,10000,Ahmed Khalil
+EG-EMP-1178,Kareem Ali,HR Manager,Sales/HR,100042,Employee Referral,24808,Hoda Soliman
+EG-EMP-1179,Khaled Mahmoud,Sales Executive,Sales/HR,42390,Employee Referral,10000,Mariam Farid
+EG-EMP-1180,Mariam Said,Sales Executive,Sales/HR,59332,Recruiter,0,
+EG-EMP-1181,Youssef Khalil,Sales Executive,Sales/HR,44119,Employee Referral,10000,Salma Reda
+EG-EMP-1182,Ahmed Ibrahim,Data Analyst,Data Science,43765,Employee Referral,10000,Nour Said
+EG-EMP-1183,Mariam Farid,Tech Lead,Engineering,81226,Employee Referral,17562,Laila Mahmoud
+EG-EMP-1184,Omar Reda,HR Manager,Sales/HR,128998,Direct,0,
+EG-EMP-1185,Khaled Hassan,Data Analyst,Data Science,64748,Recruiter,0,
+EG-EMP-1186,Youssef Soliman,Data Scientist,Data Science,45810,Recruiter,0,
+EG-EMP-1187,Nour Soliman,Data Scientist,Data Science,53006,Employee Referral,10000,Dina Mahmoud
+EG-EMP-1188,Khaled Hassan,HR Specialist,Sales/HR,35101,Employee Referral,10000,Mostafa Soliman
+EG-EMP-1189,Mostafa Mansour,ML Engineer,Data Science,42282,Employee Referral,10000,Youssef Soliman
+EG-EMP-1190,Yasmine Said,Backend Dev,Engineering,40976,Direct,0,
+EG-EMP-1191,Laila Farid,Data Scientist,Data Science,50192,Employee Referral,10000,Kareem Ali
+EG-EMP-1192,Dina Mahmoud,DevOps,Engineering,47972,Recruiter,0,
+EG-EMP-1193,Mostafa Hassan,Junior Dev,Engineering,21222,Employee Referral,5000,Khaled Ali
+EG-EMP-1194,Mostafa Hassan,Data Analyst,Data Science,44876,Recruiter,0,
+EG-EMP-1195,Mariam Farid,HR Manager,Sales/HR,128083,Employee Referral,18566,Khaled Mahmoud
+EG-EMP-1196,Khaled Ibrahim,ML Engineer,Data Science,40040,Direct,0,
+EG-EMP-1197,Omar Farid,Junior Dev,Engineering,21979,LinkedIn,0,
+EG-EMP-1198,Tarek Reda,Backend Dev,Engineering,53048,LinkedIn,0,
+EG-EMP-1199,Omar Ali,Senior Dev,Engineering,103186,Direct,0,
+EG-EMP-1200,Salma Mahmoud,HR Specialist,Sales/HR,41787,Direct,0,
+EG-EMP-1201,Yasmine Farid,QA Engineer,Engineering,62445,Direct,0,
+EG-EMP-1202,Tarek Ibrahim,DevOps,Engineering,57762,Recruiter,0,
+EG-EMP-1203,Omar Mansour,QA Engineer,Engineering,60893,Recruiter,0,
+EG-EMP-1204,Youssef Soliman,Tech Lead,Engineering,126554,LinkedIn,0,
+EG-EMP-1205,Khaled Hassan,Tech Lead,Engineering,132844,Employee Referral,19748,Dina Hassan
+EG-EMP-1206,Salma Reda,ML Engineer,Data Science,40777,LinkedIn,0,
+EG-EMP-1207,Khaled Khalil,HR Specialist,Sales/HR,58710,Employee Referral,10000,Tarek Soliman
+EG-EMP-1208,Salma Mahmoud,Junior Dev,Engineering,20498,LinkedIn,0,
+EG-EMP-1209,Omar Mahmoud,Tech Lead,Engineering,125901,Recruiter,0,
+EG-EMP-1210,Mariam Hassan,HR Manager,Sales/HR,87843,Employee Referral,15100,Hoda Soliman
+EG-EMP-1211,Laila Ibrahim,ML Engineer,Data Science,40181,Employee Referral,10000,Salma Ibrahim
+EG-EMP-1212,Kareem Farid,ML Engineer,Data Science,62598,LinkedIn,0,
+EG-EMP-1213,Laila Mahmoud,DevOps,Engineering,39153,LinkedIn,0,
+EG-EMP-1214,Yasmine Mansour,HR Manager,Sales/HR,83000,Direct,0,
+EG-EMP-1215,Omar Reda,Data Scientist,Data Science,46063,Direct,0,
+EG-EMP-1216,Laila Reda,HR Manager,Sales/HR,86388,LinkedIn,0,
+EG-EMP-1217,Khaled Ibrahim,Data Scientist,Data Science,53332,Employee Referral,10000,Youssef Khalil
+EG-EMP-1218,Ahmed Farid,Frontend Dev,Engineering,55917,Direct,0,
+EG-EMP-1219,Yasmine Reda,HR Manager,Sales/HR,131683,Employee Referral,21596,Salma Khalil
+EG-EMP-1220,Kareem Ali,HR Specialist,Sales/HR,53200,Recruiter,0,
+EG-EMP-1221,Nour Mahmoud,ML Engineer,Data Science,43725,LinkedIn,0,
+EG-EMP-1222,Salma Hassan,ML Engineer,Data Science,51236,LinkedIn,0,
+EG-EMP-1223,Mariam Mahmoud,Data Scientist,Data Science,38060,Employee Referral,10000,Youssef Soliman
+EG-EMP-1224,Omar Soliman,Sales Executive,Sales/HR,43878,Recruiter,0,
+EG-EMP-1225,Omar Mahmoud,Account Manager,Sales/HR,106438,Employee Referral,17615,Nour Said
+EG-EMP-1226,Nour Hassan,HR Manager,Sales/HR,125213,Employee Referral,20808,Omar Ali
+EG-EMP-1227,Dina Hassan,DevOps,Engineering,35728,Direct,0,
+EG-EMP-1228,Dina Farid,ML Engineer,Data Science,56678,Direct,0,
+EG-EMP-1229,Khaled Farid,Tech Lead,Engineering,73926,Employee Referral,20503,Youssef Khalil
+EG-EMP-1230,Dina Mansour,QA Engineer,Engineering,59051,Direct,0,
+EG-EMP-1231,Tarek Ali,Backend Dev,Engineering,52925,LinkedIn,0,
+EG-EMP-1232,Kareem Reda,HR Specialist,Sales/HR,54773,Employee Referral,10000,Mostafa Soliman
+EG-EMP-1233,Nour Reda,Tech Lead,Engineering,117603,Direct,0,
+EG-EMP-1234,Kareem Reda,Junior Dev,Engineering,18768,LinkedIn,0,
+EG-EMP-1235,Kareem Ali,HR Specialist,Sales/HR,57076,Direct,0,
+EG-EMP-1236,Omar Farid,Data Analyst,Data Science,43329,Direct,0,
+EG-EMP-1237,Salma Farid,Data Scientist,Data Science,50058,Recruiter,0,
+EG-EMP-1238,Youssef Soliman,ML Engineer,Data Science,36555,Employee Referral,10000,Youssef Mansour
+EG-EMP-1239,Nour Mansour,ML Engineer,Data Science,57355,LinkedIn,0,
+EG-EMP-1240,Laila Mansour,ML Engineer,Data Science,44863,Recruiter,0,
+EG-EMP-1241,Tarek Mansour,Frontend Dev,Engineering,58138,Direct,0,
+EG-EMP-1242,Khaled Hassan,Data Analyst,Data Science,44395,Employee Referral,10000,Nour Said
+EG-EMP-1243,Hoda Said,Data Scientist,Data Science,48129,LinkedIn,0,
+EG-EMP-1244,Tarek Mahmoud,ML Engineer,Data Science,35252,LinkedIn,0,
+EG-EMP-1245,Khaled Khalil,HR Specialist,Sales/HR,36815,Employee Referral,10000,Omar Khalil
+EG-EMP-1246,Nour Said,Sales Executive,Sales/HR,43490,Recruiter,0,
+EG-EMP-1247,Mostafa Reda,Data Analyst,Data Science,44083,Direct,0,
+EG-EMP-1248,Mariam Said,Backend Dev,Engineering,49906,Employee Referral,10000,Salma Mahmoud
+EG-EMP-1249,Youssef Ibrahim,ML Engineer,Data Science,49369,Employee Referral,10000,Yasmine Said
+EG-EMP-1250,Salma Khalil,DevOps,Engineering,64360,Recruiter,0,
+EG-EMP-1251,Mariam Ibrahim,Tech Lead,Engineering,124629,Employee Referral,15619,Salma Ibrahim
+EG-EMP-1252,Nour Mansour,Backend Dev,Engineering,35084,Employee Referral,10000,Hoda Soliman
+EG-EMP-1253,Youssef Khalil,HR Manager,Sales/HR,104637,Employee Referral,22194,Mostafa Mansour
+EG-EMP-1254,Laila Mansour,HR Specialist,Sales/HR,41264,Employee Referral,10000,Dina Hassan
+EG-EMP-1255,Nour Reda,ML Engineer,Data Science,41649,Employee Referral,10000,Mariam Ibrahim
+EG-EMP-1256,Omar Mansour,Data Analyst,Data Science,45686,Direct,0,
+EG-EMP-1257,Youssef Ali,Tech Lead,Engineering,135478,Employee Referral,17833,Yasmine Reda
+EG-EMP-1258,Dina Reda,Senior Dev,Engineering,102348,Direct,0,
+EG-EMP-1259,Laila Said,Tech Lead,Engineering,106877,Direct,0,
+EG-EMP-1260,Khaled Khalil,Backend Dev,Engineering,50626,Employee Referral,10000,Mariam Ali
+EG-EMP-1261,Hoda Farid,DevOps,Engineering,55761,Direct,0,
+EG-EMP-1262,Ahmed Khalil,Frontend Dev,Engineering,58789,LinkedIn,0,
+EG-EMP-1263,Dina Farid,HR Manager,Sales/HR,121423,Recruiter,0,
+EG-EMP-1264,Youssef Ibrahim,Tech Lead,Engineering,77334,LinkedIn,0,
+EG-EMP-1265,Nour Said,HR Specialist,Sales/HR,36986,Employee Referral,10000,Yasmine Reda
+EG-EMP-1266,Nour Mahmoud,Frontend Dev,Engineering,60562,LinkedIn,0,
+EG-EMP-1267,Omar Ali,Data Scientist,Data Science,64375,LinkedIn,0,
+EG-EMP-1268,Nour Khalil,ML Engineer,Data Science,45159,LinkedIn,0,
+EG-EMP-1269,Youssef Said,Data Analyst,Data Science,35078,LinkedIn,0,
+EG-EMP-1270,Dina Mahmoud,Data Scientist,Data Science,43372,LinkedIn,0,
+EG-EMP-1271,Ahmed Ali,Frontend Dev,Engineering,52571,Employee Referral,10000,Dina Farid
+EG-EMP-1272,Kareem Ibrahim,Account Manager,Sales/HR,139219,Employee Referral,18932,Laila Ali
+EG-EMP-1273,Tarek Reda,Data Scientist,Data Science,55668,Employee Referral,10000,Mostafa Mansour
+EG-EMP-1274,Hoda Ali,Sales Executive,Sales/HR,43279,Employee Referral,10000,Dina Reda
+EG-EMP-1275,Kareem Ibrahim,Tech Lead,Engineering,98487,Employee Referral,23225,Hoda Soliman
+EG-EMP-1276,Ahmed Reda,Sales Executive,Sales/HR,50807,Recruiter,0,
+EG-EMP-1277,Kareem Reda,Data Analyst,Data Science,49144,Employee Referral,10000,Ahmed Ali
+EG-EMP-1278,Laila Ali,QA Engineer,Engineering,64469,LinkedIn,0,
+EG-EMP-1279,Laila Ali,Data Analyst,Data Science,54856,LinkedIn,0,
+EG-EMP-1280,Dina Reda,HR Manager,Sales/HR,127906,Employee Referral,24951,Laila Ali
+EG-EMP-1281,Khaled Khalil,Tech Lead,Engineering,104492,Recruiter,0,
+EG-EMP-1282,Hoda Hassan,Data Analyst,Data Science,61050,Recruiter,0,
+EG-EMP-1283,Youssef Reda,HR Specialist,Sales/HR,43202,Recruiter,0,
+EG-EMP-1284,Nour Farid,HR Manager,Sales/HR,97194,Employee Referral,22706,Salma Soliman
+EG-EMP-1285,Mostafa Reda,Sales Executive,Sales/HR,49101,Employee Referral,10000,Mariam Soliman
+EG-EMP-1286,Yasmine Soliman,Data Scientist,Data Science,48243,Recruiter,0,
+EG-EMP-1287,Nour Khalil,Data Analyst,Data Science,49521,Recruiter,0,
+EG-EMP-1288,Salma Soliman,HR Manager,Sales/HR,117017,Recruiter,0,
+EG-EMP-1289,Mostafa Ibrahim,DevOps,Engineering,44449,Recruiter,0,
+EG-EMP-1290,Youssef Farid,QA Engineer,Engineering,44629,Employee Referral,10000,Ahmed Khalil
+EG-EMP-1291,Ahmed Soliman,Account Manager,Sales/HR,78188,Direct,0,
+EG-EMP-1292,Hoda Ali,Data Analyst,Data Science,43477,Employee Referral,10000,Mostafa Mahmoud
+EG-EMP-1293,Mostafa Said,Sales Executive,Sales/HR,42320,Recruiter,0,
+EG-EMP-1294,Ahmed Reda,Frontend Dev,Engineering,55582,Employee Referral,10000,Khaled Khalil
+EG-EMP-1295,Mariam Mansour,Data Scientist,Data Science,58047,LinkedIn,0,
+EG-EMP-1296,Omar Farid,Backend Dev,Engineering,35242,LinkedIn,0,
+EG-EMP-1297,Yasmine Ibrahim,HR Manager,Sales/HR,119329,Recruiter,0,
+EG-EMP-1298,Kareem Reda,Sales Executive,Sales/HR,46752,Recruiter,0,
+EG-EMP-1299,Khaled Reda,ML Engineer,Data Science,59416,Employee Referral,10000,Youssef Ali
+EG-EMP-1300,Mariam Khalil,DevOps,Engineering,61923,Employee Referral,10000,Laila Mansour
+EG-EMP-1301,Dina Ibrahim,Data Analyst,Data Science,61349,LinkedIn,0,
+EG-EMP-1302,Dina Khalil,HR Specialist,Sales/HR,38089,LinkedIn,0,
+EG-EMP-1303,Omar Soliman,Data Analyst,Data Science,64015,Employee Referral,10000,Youssef Mahmoud
+EG-EMP-1304,Nour Reda,Sales Executive,Sales/HR,56506,Employee Referral,10000,Omar Mansour
+EG-EMP-1305,Laila Said,HR Specialist,Sales/HR,57861,Recruiter,0,
+EG-EMP-1306,Tarek Ali,Backend Dev,Engineering,40524,Employee Referral,10000,Youssef Soliman
+EG-EMP-1307,Dina Reda,ML Engineer,Data Science,39620,Recruiter,0,
+EG-EMP-1308,Yasmine Said,HR Manager,Sales/HR,128689,Employee Referral,16040,Mostafa Reda
+EG-EMP-1309,Mariam Khalil,Data Scientist,Data Science,42680,Employee Referral,10000,Omar Reda
+EG-EMP-1310,Laila Khalil,Data Analyst,Data Science,44109,Direct,0,
+EG-EMP-1311,Mariam Khalil,Data Scientist,Data Science,40316,LinkedIn,0,
+EG-EMP-1312,Ahmed Said,Sales Executive,Sales/HR,57917,Recruiter,0,
+EG-EMP-1313,Kareem Said,Account Manager,Sales/HR,99180,Employee Referral,24677,Yasmine Ibrahim
+EG-EMP-1314,Youssef Khalil,Tech Lead,Engineering,75990,Employee Referral,17468,Ahmed Reda
+EG-EMP-1315,Tarek Mansour,Junior Dev,Engineering,20966,Employee Referral,5000,Yasmine Soliman
+EG-EMP-1316,Ahmed Ali,HR Manager,Sales/HR,79678,LinkedIn,0,
+EG-EMP-1317,Ahmed Mahmoud,QA Engineer,Engineering,57287,Employee Referral,10000,Dina Ali
+EG-EMP-1318,Mostafa Ibrahim,HR Specialist,Sales/HR,55737,Employee Referral,10000,Hoda Farid
+EG-EMP-1319,Nour Hassan,Data Scientist,Data Science,40159,Direct,0,
+EG-EMP-1320,Youssef Farid,HR Specialist,Sales/HR,44681,Direct,0,
+EG-EMP-1321,Ahmed Farid,Junior Dev,Engineering,26667,Employee Referral,5000,Youssef Khalil
+EG-EMP-1322,Yasmine Mahmoud,Account Manager,Sales/HR,114156,Employee Referral,19976,Khaled Hassan
+EG-EMP-1323,Laila Mahmoud,Data Scientist,Data Science,52171,LinkedIn,0,
+EG-EMP-1324,Khaled Farid,Backend Dev,Engineering,39115,Employee Referral,10000,Mariam Hassan
+EG-EMP-1325,Mostafa Ibrahim,Data Analyst,Data Science,55759,Recruiter,0,
+EG-EMP-1326,Kareem Hassan,DevOps,Engineering,44899,Direct,0,
+EG-EMP-1327,Mariam Mahmoud,DevOps,Engineering,59706,Recruiter,0,
+EG-EMP-1328,Khaled Ibrahim,Data Scientist,Data Science,55359,Direct,0,
+EG-EMP-1329,Nour Hassan,HR Manager,Sales/HR,122166,Employee Referral,17644,Kareem Mahmoud
+EG-EMP-1330,Nour Farid,Senior Dev,Engineering,74248,Direct,0,
+EG-EMP-1331,Omar Mahmoud,QA Engineer,Engineering,37355,LinkedIn,0,
+EG-EMP-1332,Kareem Mahmoud,Data Analyst,Data Science,48684,Employee Referral,10000,Kareem Ali
+EG-EMP-1333,Mostafa Mahmoud,Data Analyst,Data Science,44837,Employee Referral,10000,Laila Mahmoud
+EG-EMP-1334,Mostafa Reda,Account Manager,Sales/HR,136127,LinkedIn,0,
+EG-EMP-1335,Tarek Hassan,Junior Dev,Engineering,26308,LinkedIn,0,
+EG-EMP-1336,Youssef Ali,Sales Executive,Sales/HR,59719,Employee Referral,10000,Mariam Khalil
+EG-EMP-1337,Ahmed Mahmoud,HR Manager,Sales/HR,74690,LinkedIn,0,
+EG-EMP-1338,Ahmed Said,Data Analyst,Data Science,39072,Direct,0,
+EG-EMP-1339,Hoda Ibrahim,Frontend Dev,Engineering,37828,LinkedIn,0,
+EG-EMP-1340,Ahmed Khalil,Tech Lead,Engineering,74044,Direct,0,
+EG-EMP-1341,Salma Reda,Frontend Dev,Engineering,37361,LinkedIn,0,
+EG-EMP-1342,Tarek Soliman,Data Analyst,Data Science,56327,Employee Referral,10000,Ahmed Farid
+EG-EMP-1343,Laila Mansour,Data Scientist,Data Science,55745,LinkedIn,0,
+EG-EMP-1344,Salma Farid,HR Manager,Sales/HR,91588,Employee Referral,21249,Nour Reda
+EG-EMP-1345,Khaled Ali,Frontend Dev,Engineering,54374,Employee Referral,10000,Omar Ibrahim
+EG-EMP-1346,Salma Soliman,Account Manager,Sales/HR,102876,Direct,0,
+EG-EMP-1347,Youssef Said,ML Engineer,Data Science,52739,Employee Referral,10000,Tarek Mahmoud
+EG-EMP-1348,Dina Mahmoud,Senior Dev,Engineering,136076,Recruiter,0,
+EG-EMP-1349,Hoda Ibrahim,ML Engineer,Data Science,37503,Direct,0,
+EG-EMP-1350,Ahmed Khalil,HR Specialist,Sales/HR,37687,LinkedIn,0,
+EG-EMP-1351,Laila Soliman,HR Manager,Sales/HR,76123,Direct,0,
+EG-EMP-1352,Salma Farid,Data Scientist,Data Science,44335,LinkedIn,0,
+EG-EMP-1353,Yasmine Ali,HR Specialist,Sales/HR,63509,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1354,Nour Mansour,HR Manager,Sales/HR,130918,Employee Referral,15966,Mostafa Ali
+EG-EMP-1355,Youssef Soliman,Frontend Dev,Engineering,48820,LinkedIn,0,
+EG-EMP-1356,Omar Mahmoud,ML Engineer,Data Science,61456,Direct,0,
+EG-EMP-1357,Tarek Mansour,Data Scientist,Data Science,41252,Recruiter,0,
+EG-EMP-1358,Mostafa Reda,Account Manager,Sales/HR,102549,Recruiter,0,
+EG-EMP-1359,Kareem Mahmoud,Sales Executive,Sales/HR,35407,Employee Referral,10000,Ahmed Farid
+EG-EMP-1360,Omar Ibrahim,HR Specialist,Sales/HR,60620,Recruiter,0,
+EG-EMP-1361,Kareem Khalil,HR Manager,Sales/HR,107380,Recruiter,0,
+EG-EMP-1362,Laila Hassan,ML Engineer,Data Science,37375,Employee Referral,10000,Ahmed Reda
+EG-EMP-1363,Hoda Ibrahim,Data Analyst,Data Science,64497,Employee Referral,10000,Dina Farid
+EG-EMP-1364,Youssef Khalil,Account Manager,Sales/HR,124653,Employee Referral,16251,Khaled Mahmoud
+EG-EMP-1365,Dina Ibrahim,Sales Executive,Sales/HR,42285,Employee Referral,10000,Nour Khalil
+EG-EMP-1366,Khaled Khalil,ML Engineer,Data Science,36285,Employee Referral,10000,Youssef Mahmoud
+EG-EMP-1367,Hoda Farid,Data Analyst,Data Science,45931,LinkedIn,0,
+EG-EMP-1368,Yasmine Ali,QA Engineer,Engineering,55631,Direct,0,
+EG-EMP-1369,Khaled Soliman,Account Manager,Sales/HR,113670,Recruiter,0,
+EG-EMP-1370,Hoda Soliman,Account Manager,Sales/HR,119580,LinkedIn,0,
+EG-EMP-1371,Laila Ibrahim,HR Specialist,Sales/HR,40111,Employee Referral,10000,Mostafa Reda
+EG-EMP-1372,Youssef Reda,Senior Dev,Engineering,115610,Employee Referral,23647,Ahmed Farid
+EG-EMP-1373,Mostafa Khalil,ML Engineer,Data Science,45965,Employee Referral,10000,Khaled Reda
+EG-EMP-1374,Omar Ibrahim,Tech Lead,Engineering,136345,Employee Referral,20353,Dina Ibrahim
+EG-EMP-1375,Laila Said,QA Engineer,Engineering,62469,Employee Referral,10000,Mostafa Mahmoud
+EG-EMP-1376,Dina Soliman,ML Engineer,Data Science,64209,Employee Referral,10000,Nour Hassan
+EG-EMP-1377,Yasmine Said,Data Analyst,Data Science,37215,Direct,0,
+EG-EMP-1378,Laila Mahmoud,HR Specialist,Sales/HR,38935,Recruiter,0,
+EG-EMP-1379,Dina Mansour,Sales Executive,Sales/HR,40781,Employee Referral,10000,Hoda Soliman
+EG-EMP-1380,Nour Soliman,HR Specialist,Sales/HR,57314,Employee Referral,10000,Mariam Farid
+EG-EMP-1381,Salma Farid,Senior Dev,Engineering,128454,Employee Referral,15867,Laila Mahmoud
+EG-EMP-1382,Dina Said,Data Scientist,Data Science,43356,Direct,0,
+EG-EMP-1383,Tarek Mahmoud,Frontend Dev,Engineering,51577,Employee Referral,10000,Mariam Ali
+EG-EMP-1384,Dina Ibrahim,ML Engineer,Data Science,61603,Employee Referral,10000,Ahmed Farid
+EG-EMP-1385,Ahmed Ali,Sales Executive,Sales/HR,60859,Employee Referral,10000,Laila Ibrahim
+EG-EMP-1386,Salma Said,Tech Lead,Engineering,72526,LinkedIn,0,
+EG-EMP-1387,Youssef Khalil,ML Engineer,Data Science,57778,Direct,0,
+EG-EMP-1388,Hoda Soliman,Data Scientist,Data Science,38959,Recruiter,0,
+EG-EMP-1389,Ahmed Reda,Tech Lead,Engineering,78758,Employee Referral,15804,Dina Ibrahim
+EG-EMP-1390,Nour Hassan,QA Engineer,Engineering,39511,LinkedIn,0,
+EG-EMP-1391,Salma Hassan,Junior Dev,Engineering,20829,Employee Referral,5000,Youssef Hassan
+EG-EMP-1392,Hoda Khalil,Account Manager,Sales/HR,94777,LinkedIn,0,
+EG-EMP-1393,Kareem Hassan,Data Analyst,Data Science,56439,Direct,0,
+EG-EMP-1394,Youssef Ibrahim,Sales Executive,Sales/HR,35430,Employee Referral,10000,Omar Khalil
+EG-EMP-1395,Salma Mahmoud,DevOps,Engineering,52278,Direct,0,
+EG-EMP-1396,Khaled Soliman,Data Analyst,Data Science,43414,Employee Referral,10000,Laila Said
+EG-EMP-1397,Yasmine Khalil,ML Engineer,Data Science,42275,Employee Referral,10000,Mariam Hassan
+EG-EMP-1398,Tarek Khalil,HR Specialist,Sales/HR,37405,Employee Referral,10000,Salma Khalil
+EG-EMP-1399,Mariam Ali,HR Manager,Sales/HR,117018,Employee Referral,17098,Kareem Mahmoud
+EG-EMP-1400,Salma Mahmoud,Account Manager,Sales/HR,126139,LinkedIn,0,
+EG-EMP-1401,Yasmine Ibrahim,Data Scientist,Data Science,60679,Employee Referral,10000,Laila Said
+EG-EMP-1402,Laila Ali,Data Scientist,Data Science,58624,LinkedIn,0,
+EG-EMP-1403,Mostafa Farid,Account Manager,Sales/HR,87442,LinkedIn,0,
+EG-EMP-1404,Ahmed Said,Senior Dev,Engineering,126675,Recruiter,0,
+EG-EMP-1405,Omar Soliman,QA Engineer,Engineering,42393,LinkedIn,0,
+EG-EMP-1406,Mostafa Ali,Account Manager,Sales/HR,117256,Employee Referral,16000,Dina Reda
+EG-EMP-1407,Mariam Mansour,DevOps,Engineering,62501,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1408,Khaled Ali,Sales Executive,Sales/HR,37155,Employee Referral,10000,Laila Mahmoud
+EG-EMP-1409,Dina Soliman,Frontend Dev,Engineering,37783,Direct,0,
+EG-EMP-1410,Yasmine Farid,QA Engineer,Engineering,40307,Employee Referral,10000,Youssef Khalil
+EG-EMP-1411,Nour Khalil,Backend Dev,Engineering,41316,Recruiter,0,
+EG-EMP-1412,Nour Ali,HR Specialist,Sales/HR,61769,Recruiter,0,
+EG-EMP-1413,Nour Mansour,Senior Dev,Engineering,133134,Employee Referral,16278,Khaled Ali
+EG-EMP-1414,Omar Mansour,Sales Executive,Sales/HR,35469,LinkedIn,0,
+EG-EMP-1415,Hoda Khalil,HR Specialist,Sales/HR,63020,Employee Referral,10000,Salma Reda
+EG-EMP-1416,Tarek Reda,Frontend Dev,Engineering,43400,LinkedIn,0,
+EG-EMP-1417,Nour Ali,Data Scientist,Data Science,63937,LinkedIn,0,
+EG-EMP-1418,Nour Mahmoud,QA Engineer,Engineering,55068,Recruiter,0,
+EG-EMP-1419,Nour Soliman,Data Analyst,Data Science,40929,Employee Referral,10000,Hoda Ibrahim
+EG-EMP-1420,Khaled Mansour,Junior Dev,Engineering,19318,Direct,0,
+EG-EMP-1421,Youssef Khalil,QA Engineer,Engineering,56211,Employee Referral,10000,Mostafa Mansour
+EG-EMP-1422,Ahmed Said,Backend Dev,Engineering,46686,Recruiter,0,
+EG-EMP-1423,Omar Soliman,Sales Executive,Sales/HR,43734,LinkedIn,0,
+EG-EMP-1424,Ahmed Ali,Sales Executive,Sales/HR,54029,Recruiter,0,
+EG-EMP-1425,Hoda Mahmoud,Frontend Dev,Engineering,49106,Employee Referral,10000,Hoda Hassan
+EG-EMP-1426,Khaled Farid,Data Analyst,Data Science,48105,Recruiter,0,
+EG-EMP-1427,Kareem Said,ML Engineer,Data Science,50591,Recruiter,0,
+EG-EMP-1428,Tarek Ibrahim,ML Engineer,Data Science,62267,LinkedIn,0,
+EG-EMP-1429,Omar Farid,Senior Dev,Engineering,71880,Employee Referral,18583,Nour Ali
+EG-EMP-1430,Kareem Hassan,Sales Executive,Sales/HR,58895,Direct,0,
+EG-EMP-1431,Omar Khalil,QA Engineer,Engineering,48961,Employee Referral,10000,Nour Khalil
+EG-EMP-1432,Omar Farid,Account Manager,Sales/HR,125824,Employee Referral,22606,Ahmed Farid
+EG-EMP-1433,Mostafa Ali,HR Manager,Sales/HR,111077,Recruiter,0,
+EG-EMP-1434,Ahmed Farid,HR Specialist,Sales/HR,49569,LinkedIn,0,
+EG-EMP-1435,Dina Reda,DevOps,Engineering,60841,Employee Referral,10000,Mariam Said
+EG-EMP-1436,Salma Ibrahim,HR Manager,Sales/HR,76859,LinkedIn,0,
+EG-EMP-1437,Tarek Mahmoud,ML Engineer,Data Science,42754,Direct,0,
+EG-EMP-1438,Tarek Khalil,HR Manager,Sales/HR,122887,Direct,0,
+EG-EMP-1439,Dina Said,Account Manager,Sales/HR,115777,Recruiter,0,
+EG-EMP-1440,Omar Ali,HR Manager,Sales/HR,90881,LinkedIn,0,
+EG-EMP-1441,Ahmed Farid,Frontend Dev,Engineering,59405,Direct,0,
+EG-EMP-1442,Dina Reda,ML Engineer,Data Science,62997,Direct,0,
+EG-EMP-1443,Ahmed Khalil,Sales Executive,Sales/HR,62337,Direct,0,
+EG-EMP-1444,Mostafa Said,Junior Dev,Engineering,29112,Employee Referral,5000,Mariam Reda
+EG-EMP-1445,Youssef Reda,Data Scientist,Data Science,52629,LinkedIn,0,
+EG-EMP-1446,Yasmine Reda,Frontend Dev,Engineering,58960,LinkedIn,0,
+EG-EMP-1447,Omar Mahmoud,ML Engineer,Data Science,64752,Direct,0,
+EG-EMP-1448,Dina Farid,Tech Lead,Engineering,86840,Direct,0,
+EG-EMP-1449,Tarek Hassan,ML Engineer,Data Science,56771,LinkedIn,0,
+EG-EMP-1450,Kareem Mansour,ML Engineer,Data Science,59523,Employee Referral,10000,Mostafa Said
+EG-EMP-1451,Dina Reda,HR Manager,Sales/HR,77142,Employee Referral,18438,Laila Said
+EG-EMP-1452,Nour Hassan,Frontend Dev,Engineering,50138,LinkedIn,0,
+EG-EMP-1453,Tarek Khalil,Backend Dev,Engineering,52528,LinkedIn,0,
+EG-EMP-1454,Khaled Hassan,ML Engineer,Data Science,48585,Direct,0,
+EG-EMP-1455,Mostafa Mahmoud,HR Specialist,Sales/HR,45273,LinkedIn,0,
+EG-EMP-1456,Tarek Farid,Senior Dev,Engineering,126949,Recruiter,0,
+EG-EMP-1457,Laila Mansour,ML Engineer,Data Science,49377,LinkedIn,0,
+EG-EMP-1458,Kareem Mahmoud,Frontend Dev,Engineering,53938,Employee Referral,10000,Mostafa Soliman
+EG-EMP-1459,Laila Farid,Tech Lead,Engineering,108174,Employee Referral,24168,Tarek Soliman
+EG-EMP-1460,Mariam Hassan,Data Analyst,Data Science,56236,LinkedIn,0,
+EG-EMP-1461,Kareem Reda,Senior Dev,Engineering,134939,Employee Referral,24771,Nour Reda
+EG-EMP-1462,Hoda Soliman,Data Scientist,Data Science,35243,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1463,Tarek Ibrahim,Data Analyst,Data Science,40411,Direct,0,
+EG-EMP-1464,Mariam Khalil,Data Analyst,Data Science,57031,Employee Referral,10000,Mariam Ibrahim
+EG-EMP-1465,Salma Said,DevOps,Engineering,44566,LinkedIn,0,
+EG-EMP-1466,Yasmine Ali,DevOps,Engineering,40327,Employee Referral,10000,Nour Khalil
+EG-EMP-1467,Ahmed Hassan,Tech Lead,Engineering,108786,Direct,0,
+EG-EMP-1468,Omar Ibrahim,Account Manager,Sales/HR,92479,Direct,0,
+EG-EMP-1469,Yasmine Ali,Data Scientist,Data Science,61350,Recruiter,0,
+EG-EMP-1470,Mostafa Khalil,Tech Lead,Engineering,84165,LinkedIn,0,
+EG-EMP-1471,Kareem Khalil,ML Engineer,Data Science,42734,Employee Referral,10000,Youssef Khalil
+EG-EMP-1472,Salma Reda,Account Manager,Sales/HR,84260,Employee Referral,23464,Ahmed Ali
+EG-EMP-1473,Hoda Soliman,HR Specialist,Sales/HR,52673,Employee Referral,10000,Yasmine Ali
+EG-EMP-1474,Youssef Farid,Data Analyst,Data Science,55683,Employee Referral,10000,Laila Mansour
+EG-EMP-1475,Tarek Ibrahim,Data Scientist,Data Science,64678,LinkedIn,0,
+EG-EMP-1476,Mostafa Mansour,Data Analyst,Data Science,41708,Employee Referral,10000,Mariam Farid
+EG-EMP-1477,Mostafa Hassan,Sales Executive,Sales/HR,49702,Recruiter,0,
+EG-EMP-1478,Khaled Mahmoud,Data Analyst,Data Science,37217,Recruiter,0,
+EG-EMP-1479,Laila Reda,Account Manager,Sales/HR,93241,Employee Referral,21938,Youssef Ali
+EG-EMP-1480,Hoda Reda,HR Manager,Sales/HR,98846,Recruiter,0,
+EG-EMP-1481,Hoda Soliman,HR Specialist,Sales/HR,52279,Recruiter,0,
+EG-EMP-1482,Kareem Reda,Junior Dev,Engineering,23301,Employee Referral,5000,Yasmine Ibrahim
+EG-EMP-1483,Laila Khalil,ML Engineer,Data Science,49741,Employee Referral,10000,Ahmed Mahmoud
+EG-EMP-1484,Mostafa Mahmoud,Account Manager,Sales/HR,137378,Employee Referral,24955,Kareem Said
+EG-EMP-1485,Yasmine Mansour,DevOps,Engineering,35731,LinkedIn,0,
+EG-EMP-1486,Ahmed Ibrahim,Data Scientist,Data Science,41595,LinkedIn,0,
+EG-EMP-1487,Kareem Khalil,HR Specialist,Sales/HR,39209,Recruiter,0,
+EG-EMP-1488,Mariam Said,QA Engineer,Engineering,41876,Direct,0,
+EG-EMP-1489,Youssef Mansour,HR Specialist,Sales/HR,56036,Employee Referral,10000,Tarek Khalil
+EG-EMP-1490,Dina Farid,HR Manager,Sales/HR,104807,Direct,0,
+EG-EMP-1491,Laila Ali,Junior Dev,Engineering,26025,Direct,0,
+EG-EMP-1492,Laila Hassan,HR Manager,Sales/HR,100194,LinkedIn,0,
+EG-EMP-1493,Nour Mansour,Data Scientist,Data Science,41413,Recruiter,0,
+EG-EMP-1494,Laila Khalil,Data Analyst,Data Science,58055,Direct,0,
+EG-EMP-1495,Kareem Reda,Backend Dev,Engineering,58612,Recruiter,0,
+EG-EMP-1496,Omar Ibrahim,HR Specialist,Sales/HR,47874,LinkedIn,0,
+EG-EMP-1497,Mostafa Mahmoud,Frontend Dev,Engineering,38195,Direct,0,
+EG-EMP-1498,Nour Mansour,Junior Dev,Engineering,21135,LinkedIn,0,
+EG-EMP-1499,Laila Hassan,HR Specialist,Sales/HR,45108,Employee Referral,10000,Yasmine Mansour
+EG-EMP-1500,Mostafa Khalil,Frontend Dev,Engineering,38780,Employee Referral,10000,Laila Said
+EG-EMP-1501,Youssef Soliman,Data Analyst,Data Science,43997,Employee Referral,10000,Kareem Farid
+EG-EMP-1502,Dina Mansour,Data Analyst,Data Science,53298,LinkedIn,0,
+EG-EMP-1503,Hoda Reda,Senior Dev,Engineering,111982,Employee Referral,17219,Salma Ibrahim
+EG-EMP-1504,Hoda Farid,ML Engineer,Data Science,55206,LinkedIn,0,
+EG-EMP-1505,Hoda Mahmoud,Account Manager,Sales/HR,97845,LinkedIn,0,
+EG-EMP-1506,Nour Said,Data Scientist,Data Science,38515,Direct,0,
+EG-EMP-1507,Youssef Ibrahim,Sales Executive,Sales/HR,64056,Direct,0,
+EG-EMP-1508,Salma Ali,HR Manager,Sales/HR,76679,Employee Referral,24821,Mariam Ali
+EG-EMP-1509,Nour Hassan,HR Manager,Sales/HR,94748,LinkedIn,0,
+EG-EMP-1510,Nour Ibrahim,ML Engineer,Data Science,61493,Recruiter,0,
+EG-EMP-1511,Kareem Khalil,Account Manager,Sales/HR,84955,Direct,0,
+EG-EMP-1512,Tarek Ali,HR Manager,Sales/HR,83083,Employee Referral,16927,Yasmine Ibrahim
+EG-EMP-1513,Mariam Soliman,Data Analyst,Data Science,43869,Employee Referral,10000,Ahmed Khalil
+EG-EMP-1514,Omar Ibrahim,ML Engineer,Data Science,52040,Recruiter,0,
+EG-EMP-1515,Laila Mahmoud,QA Engineer,Engineering,56233,Direct,0,
+EG-EMP-1516,Mariam Said,Tech Lead,Engineering,114989,LinkedIn,0,
+EG-EMP-1517,Nour Said,ML Engineer,Data Science,35070,LinkedIn,0,
+EG-EMP-1518,Youssef Soliman,Data Analyst,Data Science,40385,Employee Referral,10000,Omar Soliman
+EG-EMP-1519,Dina Ibrahim,Sales Executive,Sales/HR,41857,LinkedIn,0,
+EG-EMP-1520,Yasmine Said,Data Analyst,Data Science,62465,Direct,0,
+EG-EMP-1521,Mariam Farid,Data Scientist,Data Science,47521,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1522,Youssef Said,HR Manager,Sales/HR,114713,Employee Referral,18444,Tarek Mansour
+EG-EMP-1523,Mariam Mansour,Data Analyst,Data Science,59937,Employee Referral,10000,Omar Ibrahim
+EG-EMP-1524,Dina Ali,ML Engineer,Data Science,50468,Direct,0,
+EG-EMP-1525,Dina Khalil,Frontend Dev,Engineering,56752,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1526,Yasmine Farid,Account Manager,Sales/HR,136650,Employee Referral,15937,Mariam Ali
+EG-EMP-1527,Khaled Farid,Account Manager,Sales/HR,89330,LinkedIn,0,
+EG-EMP-1528,Kareem Reda,Backend Dev,Engineering,58069,Employee Referral,10000,Yasmine Reda
+EG-EMP-1529,Mariam Mahmoud,HR Specialist,Sales/HR,41555,Employee Referral,10000,Salma Farid
+EG-EMP-1530,Ahmed Khalil,Senior Dev,Engineering,124525,Employee Referral,21893,Yasmine Ali
+EG-EMP-1531,Ahmed Said,HR Manager,Sales/HR,73841,LinkedIn,0,
+EG-EMP-1532,Laila Mansour,Data Analyst,Data Science,50482,LinkedIn,0,
+EG-EMP-1533,Yasmine Farid,Data Analyst,Data Science,62674,Direct,0,
+EG-EMP-1534,Omar Khalil,Tech Lead,Engineering,139095,Employee Referral,23793,Hoda Khalil
+EG-EMP-1535,Mostafa Mansour,QA Engineer,Engineering,39494,LinkedIn,0,
+EG-EMP-1536,Omar Reda,ML Engineer,Data Science,43359,Direct,0,
+EG-EMP-1537,Nour Farid,Senior Dev,Engineering,73705,LinkedIn,0,
+EG-EMP-1538,Laila Reda,Account Manager,Sales/HR,77530,Direct,0,
+EG-EMP-1539,Salma Soliman,Account Manager,Sales/HR,118051,Employee Referral,19477,Dina Ibrahim
+EG-EMP-1540,Laila Said,Frontend Dev,Engineering,45073,Employee Referral,10000,Omar Soliman
+EG-EMP-1541,Mostafa Mahmoud,Data Scientist,Data Science,47520,Employee Referral,10000,Nour Ali
+EG-EMP-1542,Nour Soliman,Backend Dev,Engineering,54428,LinkedIn,0,
+EG-EMP-1543,Yasmine Mansour,Data Analyst,Data Science,51700,LinkedIn,0,
+EG-EMP-1544,Hoda Khalil,ML Engineer,Data Science,45103,LinkedIn,0,
+EG-EMP-1545,Kareem Mahmoud,Data Scientist,Data Science,52226,Direct,0,
+EG-EMP-1546,Mariam Hassan,Data Scientist,Data Science,51057,LinkedIn,0,
+EG-EMP-1547,Hoda Said,QA Engineer,Engineering,40913,Employee Referral,10000,Tarek Khalil
+EG-EMP-1548,Dina Said,Frontend Dev,Engineering,37643,Direct,0,
+EG-EMP-1549,Ahmed Mahmoud,Backend Dev,Engineering,45043,Employee Referral,10000,Yasmine Ibrahim
+EG-EMP-1550,Laila Soliman,HR Specialist,Sales/HR,52356,LinkedIn,0,
+EG-EMP-1551,Khaled Reda,ML Engineer,Data Science,45413,LinkedIn,0,
+EG-EMP-1552,Tarek Farid,HR Manager,Sales/HR,125528,Employee Referral,24019,Kareem Mahmoud
+EG-EMP-1553,Khaled Ali,Data Scientist,Data Science,56093,Direct,0,
+EG-EMP-1554,Dina Farid,Senior Dev,Engineering,93446,Employee Referral,18269,Mariam Said
+EG-EMP-1555,Omar Farid,ML Engineer,Data Science,39821,LinkedIn,0,
+EG-EMP-1556,Salma Khalil,Data Analyst,Data Science,55466,Employee Referral,10000,Kareem Farid
+EG-EMP-1557,Salma Reda,Account Manager,Sales/HR,106398,Direct,0,
+EG-EMP-1558,Mostafa Ibrahim,HR Specialist,Sales/HR,48546,LinkedIn,0,
+EG-EMP-1559,Youssef Farid,Junior Dev,Engineering,29889,LinkedIn,0,
+EG-EMP-1560,Laila Farid,Backend Dev,Engineering,43260,LinkedIn,0,
+EG-EMP-1561,Dina Khalil,Account Manager,Sales/HR,121542,LinkedIn,0,
+EG-EMP-1562,Dina Mansour,Account Manager,Sales/HR,114822,Employee Referral,24961,Mostafa Mahmoud
+EG-EMP-1563,Nour Reda,HR Manager,Sales/HR,91079,Employee Referral,22950,Nour Farid
+EG-EMP-1564,Ahmed Ibrahim,HR Specialist,Sales/HR,42323,Employee Referral,10000,Dina Mansour
+EG-EMP-1565,Omar Farid,Account Manager,Sales/HR,105126,Recruiter,0,
+EG-EMP-1566,Nour Said,Data Scientist,Data Science,41134,Employee Referral,10000,Tarek Khalil
+EG-EMP-1567,Yasmine Mahmoud,Data Scientist,Data Science,36108,Employee Referral,10000,Nour Said
+EG-EMP-1568,Salma Soliman,HR Specialist,Sales/HR,35539,Employee Referral,10000,Kareem Khalil
+EG-EMP-1569,Omar Ibrahim,HR Specialist,Sales/HR,45211,Employee Referral,10000,Youssef Ali
+EG-EMP-1570,Youssef Ali,Account Manager,Sales/HR,108265,Recruiter,0,
+EG-EMP-1571,Dina Said,HR Manager,Sales/HR,128837,Direct,0,
+EG-EMP-1572,Salma Soliman,HR Specialist,Sales/HR,40727,Direct,0,
+EG-EMP-1573,Yasmine Ibrahim,Tech Lead,Engineering,111906,Recruiter,0,
+EG-EMP-1574,Laila Farid,Account Manager,Sales/HR,134671,Recruiter,0,
+EG-EMP-1575,Dina Ibrahim,ML Engineer,Data Science,37005,Recruiter,0,
+EG-EMP-1576,Dina Mansour,Account Manager,Sales/HR,123164,Employee Referral,18551,Nour Mahmoud
+EG-EMP-1577,Omar Mahmoud,Tech Lead,Engineering,131137,LinkedIn,0,
+EG-EMP-1578,Ahmed Hassan,Sales Executive,Sales/HR,43242,LinkedIn,0,
+EG-EMP-1579,Hoda Said,Data Analyst,Data Science,63681,Employee Referral,10000,Dina Khalil
+EG-EMP-1580,Ahmed Ibrahim,Data Analyst,Data Science,52426,Direct,0,
+EG-EMP-1581,Kareem Said,Tech Lead,Engineering,101904,Employee Referral,24144,Tarek Mansour
+EG-EMP-1582,Nour Mahmoud,Junior Dev,Engineering,25566,Recruiter,0,
+EG-EMP-1583,Dina Said,ML Engineer,Data Science,52253,LinkedIn,0,
+EG-EMP-1584,Omar Mansour,Account Manager,Sales/HR,106938,Direct,0,
+EG-EMP-1585,Omar Khalil,HR Manager,Sales/HR,82656,Recruiter,0,
+EG-EMP-1586,Yasmine Hassan,Data Analyst,Data Science,61929,Employee Referral,10000,Hoda Soliman
+EG-EMP-1587,Yasmine Farid,Senior Dev,Engineering,97078,Employee Referral,23906,Mariam Farid
+EG-EMP-1588,Hoda Soliman,Sales Executive,Sales/HR,44445,Employee Referral,10000,Omar Reda
+EG-EMP-1589,Ahmed Khalil,Data Analyst,Data Science,48348,Employee Referral,10000,Ahmed Mahmoud
+EG-EMP-1590,Kareem Farid,Data Analyst,Data Science,41424,Employee Referral,10000,Yasmine Said
+EG-EMP-1591,Hoda Hassan,Tech Lead,Engineering,127327,Recruiter,0,
+EG-EMP-1592,Laila Hassan,Data Analyst,Data Science,57162,Employee Referral,10000,Mostafa Mansour
+EG-EMP-1593,Nour Farid,DevOps,Engineering,39863,Employee Referral,10000,Khaled Ali
+EG-EMP-1594,Youssef Farid,HR Specialist,Sales/HR,42940,Direct,0,
+EG-EMP-1595,Ahmed Mansour,DevOps,Engineering,54036,Employee Referral,10000,Khaled Ali
+EG-EMP-1596,Ahmed Said,DevOps,Engineering,42971,Employee Referral,10000,Omar Ibrahim
+EG-EMP-1597,Mostafa Mahmoud,HR Manager,Sales/HR,115651,Direct,0,
+EG-EMP-1598,Ahmed Farid,Data Analyst,Data Science,41948,Direct,0,
+EG-EMP-1599,Mariam Farid,Account Manager,Sales/HR,80603,LinkedIn,0,
+EG-EMP-1600,Youssef Soliman,ML Engineer,Data Science,47485,Direct,0,
+EG-EMP-1601,Laila Said,Account Manager,Sales/HR,112255,LinkedIn,0,
+EG-EMP-1602,Mariam Farid,Backend Dev,Engineering,38042,Recruiter,0,
+EG-EMP-1603,Salma Mahmoud,Data Scientist,Data Science,55490,Employee Referral,10000,Omar Mansour
+EG-EMP-1604,Kareem Ibrahim,Tech Lead,Engineering,88435,Direct,0,
+EG-EMP-1605,Ahmed Soliman,DevOps,Engineering,47489,Direct,0,
+EG-EMP-1606,Youssef Farid,QA Engineer,Engineering,40274,Employee Referral,10000,Hoda Khalil
+EG-EMP-1607,Salma Ali,Data Analyst,Data Science,61919,LinkedIn,0,
+EG-EMP-1608,Youssef Ibrahim,Data Analyst,Data Science,63429,LinkedIn,0,
+EG-EMP-1609,Salma Mansour,Data Scientist,Data Science,44338,LinkedIn,0,
+EG-EMP-1610,Salma Ibrahim,Data Scientist,Data Science,61604,LinkedIn,0,
+EG-EMP-1611,Kareem Soliman,Frontend Dev,Engineering,40849,Recruiter,0,
+EG-EMP-1612,Mariam Mahmoud,Sales Executive,Sales/HR,62862,Employee Referral,10000,Khaled Khalil
+EG-EMP-1613,Laila Said,ML Engineer,Data Science,39100,Employee Referral,10000,Dina Ibrahim
+EG-EMP-1614,Mariam Khalil,Account Manager,Sales/HR,77895,Employee Referral,19962,Ahmed Khalil
+EG-EMP-1615,Khaled Farid,Senior Dev,Engineering,105842,Recruiter,0,
+EG-EMP-1616,Mariam Farid,Senior Dev,Engineering,109323,Direct,0,
+EG-EMP-1617,Tarek Ibrahim,Account Manager,Sales/HR,121951,Employee Referral,17263,Ahmed Ali
+EG-EMP-1618,Salma Said,Sales Executive,Sales/HR,43817,Employee Referral,10000,Mostafa Soliman
+EG-EMP-1619,Kareem Mahmoud,Data Scientist,Data Science,38880,Employee Referral,10000,Laila Farid
+EG-EMP-1620,Nour Said,HR Specialist,Sales/HR,56536,Recruiter,0,
+EG-EMP-1621,Dina Mahmoud,Junior Dev,Engineering,20699,Employee Referral,5000,Ahmed Mahmoud
+EG-EMP-1622,Khaled Ali,Sales Executive,Sales/HR,52643,Direct,0,
+EG-EMP-1623,Laila Ibrahim,Account Manager,Sales/HR,109894,Direct,0,
+EG-EMP-1624,Hoda Reda,QA Engineer,Engineering,39258,Recruiter,0,
+EG-EMP-1625,Hoda Reda,Tech Lead,Engineering,121112,LinkedIn,0,
+EG-EMP-1626,Ahmed Hassan,HR Specialist,Sales/HR,48312,Recruiter,0,
+EG-EMP-1627,Omar Mahmoud,Data Scientist,Data Science,57392,Direct,0,
+EG-EMP-1628,Mariam Soliman,Data Analyst,Data Science,54620,Direct,0,
+EG-EMP-1629,Tarek Hassan,HR Specialist,Sales/HR,44609,Recruiter,0,
+EG-EMP-1630,Mostafa Mansour,Data Analyst,Data Science,35886,Direct,0,
+EG-EMP-1631,Dina Mahmoud,Data Analyst,Data Science,54744,LinkedIn,0,
+EG-EMP-1632,Salma Ibrahim,Data Analyst,Data Science,62591,Direct,0,
+EG-EMP-1633,Mariam Mansour,Sales Executive,Sales/HR,59302,Direct,0,
+EG-EMP-1634,Mostafa Mansour,Frontend Dev,Engineering,45117,Employee Referral,10000,Mariam Mansour
+EG-EMP-1635,Yasmine Said,Data Scientist,Data Science,56910,LinkedIn,0,
+EG-EMP-1636,Hoda Soliman,Account Manager,Sales/HR,98019,Direct,0,
+EG-EMP-1637,Salma Said,Data Scientist,Data Science,57254,LinkedIn,0,
+EG-EMP-1638,Ahmed Mahmoud,QA Engineer,Engineering,39271,Recruiter,0,
+EG-EMP-1639,Kareem Ali,Backend Dev,Engineering,58023,Direct,0,
+EG-EMP-1640,Hoda Hassan,Senior Dev,Engineering,70698,Recruiter,0,
+EG-EMP-1641,Tarek Ali,Data Scientist,Data Science,64199,Employee Referral,10000,Yasmine Ali
+EG-EMP-1642,Salma Mansour,HR Specialist,Sales/HR,49975,Employee Referral,10000,Youssef Mansour
+EG-EMP-1643,Mariam Soliman,Frontend Dev,Engineering,48644,LinkedIn,0,
+EG-EMP-1644,Khaled Mansour,Sales Executive,Sales/HR,44959,Employee Referral,10000,Yasmine Mansour
+EG-EMP-1645,Khaled Soliman,Tech Lead,Engineering,105066,Employee Referral,23807,Mariam Said
+EG-EMP-1646,Mostafa Hassan,Backend Dev,Engineering,46502,Recruiter,0,
+EG-EMP-1647,Dina Mahmoud,Sales Executive,Sales/HR,36699,Employee Referral,10000,Mostafa Reda
+EG-EMP-1648,Dina Hassan,DevOps,Engineering,38573,Employee Referral,10000,Khaled Soliman
+EG-EMP-1649,Dina Farid,HR Manager,Sales/HR,121817,Employee Referral,23551,Laila Hassan
+EG-EMP-1650,Youssef Hassan,Account Manager,Sales/HR,132808,LinkedIn,0,
+EG-EMP-1651,Laila Hassan,HR Specialist,Sales/HR,36671,LinkedIn,0,
+EG-EMP-1652,Ahmed Mansour,Data Scientist,Data Science,56448,LinkedIn,0,
+EG-EMP-1653,Omar Farid,Backend Dev,Engineering,35013,Employee Referral,10000,Kareem Ali
+EG-EMP-1654,Mostafa Soliman,Tech Lead,Engineering,114075,Direct,0,
+EG-EMP-1655,Youssef Khalil,Frontend Dev,Engineering,57015,LinkedIn,0,
+EG-EMP-1656,Yasmine Farid,ML Engineer,Data Science,37464,Direct,0,
+EG-EMP-1657,Laila Ibrahim,Sales Executive,Sales/HR,62178,Recruiter,0,
+EG-EMP-1658,Dina Farid,HR Manager,Sales/HR,99993,Employee Referral,20034,Dina Hassan
+EG-EMP-1659,Mostafa Hassan,Data Scientist,Data Science,36315,LinkedIn,0,
+EG-EMP-1660,Mostafa Soliman,ML Engineer,Data Science,55922,Employee Referral,10000,Nour Ali
+EG-EMP-1661,Ahmed Mansour,Senior Dev,Engineering,115094,Recruiter,0,
+EG-EMP-1662,Ahmed Mansour,Data Scientist,Data Science,40662,Recruiter,0,
+EG-EMP-1663,Khaled Mansour,HR Specialist,Sales/HR,48884,Recruiter,0,
+EG-EMP-1664,Dina Mahmoud,Backend Dev,Engineering,46503,LinkedIn,0,
+EG-EMP-1665,Youssef Soliman,Sales Executive,Sales/HR,60687,LinkedIn,0,
+EG-EMP-1666,Mostafa Soliman,HR Manager,Sales/HR,126096,Recruiter,0,
+EG-EMP-1667,Khaled Khalil,Account Manager,Sales/HR,88392,Recruiter,0,
+EG-EMP-1668,Khaled Khalil,HR Manager,Sales/HR,128866,Direct,0,
+EG-EMP-1669,Khaled Khalil,Senior Dev,Engineering,80421,Direct,0,
+EG-EMP-1670,Omar Mahmoud,Tech Lead,Engineering,73001,LinkedIn,0,
+EG-EMP-1671,Mostafa Farid,HR Manager,Sales/HR,70685,LinkedIn,0,
+EG-EMP-1672,Kareem Farid,HR Manager,Sales/HR,104292,Employee Referral,21342,Dina Farid
+EG-EMP-1673,Nour Soliman,Sales Executive,Sales/HR,54182,Employee Referral,10000,Mostafa Ibrahim
+EG-EMP-1674,Salma Farid,Account Manager,Sales/HR,125479,Employee Referral,19383,Dina Khalil
+EG-EMP-1675,Dina Ali,Data Analyst,Data Science,49900,LinkedIn,0,
+EG-EMP-1676,Tarek Mansour,HR Manager,Sales/HR,111626,Direct,0,
+EG-EMP-1677,Kareem Ibrahim,HR Manager,Sales/HR,72313,Recruiter,0,
+EG-EMP-1678,Nour Reda,Junior Dev,Engineering,18445,Employee Referral,5000,Dina Mansour
+EG-EMP-1679,Ahmed Reda,Frontend Dev,Engineering,51127,LinkedIn,0,
+EG-EMP-1680,Laila Mahmoud,Tech Lead,Engineering,133661,LinkedIn,0,
+EG-EMP-1681,Ahmed Soliman,HR Specialist,Sales/HR,41233,Recruiter,0,
+EG-EMP-1682,Mostafa Soliman,DevOps,Engineering,37435,Employee Referral,10000,Ahmed Mahmoud
+EG-EMP-1683,Kareem Khalil,Account Manager,Sales/HR,77275,LinkedIn,0,
+EG-EMP-1684,Ahmed Khalil,ML Engineer,Data Science,47181,Employee Referral,10000,Kareem Reda
+EG-EMP-1685,Nour Soliman,Data Scientist,Data Science,46502,Employee Referral,10000,Salma Farid
+EG-EMP-1686,Nour Ali,Sales Executive,Sales/HR,57218,LinkedIn,0,
+EG-EMP-1687,Kareem Mahmoud,Sales Executive,Sales/HR,39269,LinkedIn,0,
+EG-EMP-1688,Khaled Reda,HR Specialist,Sales/HR,43257,Direct,0,
+EG-EMP-1689,Mostafa Ali,Tech Lead,Engineering,72051,Employee Referral,17328,Mariam Farid
+EG-EMP-1690,Mostafa Soliman,QA Engineer,Engineering,40091,Recruiter,0,
+EG-EMP-1691,Mostafa Said,Tech Lead,Engineering,103721,Recruiter,0,
+EG-EMP-1692,Salma Reda,Junior Dev,Engineering,25417,LinkedIn,0,
+EG-EMP-1693,Kareem Ibrahim,ML Engineer,Data Science,53854,Recruiter,0,
+EG-EMP-1694,Mostafa Mansour,ML Engineer,Data Science,57417,Direct,0,
+EG-EMP-1695,Salma Soliman,Tech Lead,Engineering,109447,Employee Referral,18391,Kareem Reda
+EG-EMP-1696,Nour Mahmoud,Data Analyst,Data Science,55118,LinkedIn,0,
+EG-EMP-1697,Kareem Soliman,HR Specialist,Sales/HR,36719,Employee Referral,10000,Mariam Khalil
+EG-EMP-1698,Yasmine Mahmoud,HR Manager,Sales/HR,137559,Recruiter,0,
+EG-EMP-1699,Kareem Farid,DevOps,Engineering,60108,Employee Referral,10000,Mariam Hassan
+EG-EMP-1700,Laila Ali,Backend Dev,Engineering,64235,Direct,0,
+EG-EMP-1701,Mariam Soliman,HR Manager,Sales/HR,71817,LinkedIn,0,
+EG-EMP-1702,Salma Khalil,HR Specialist,Sales/HR,54651,Employee Referral,10000,Youssef Khalil
+EG-EMP-1703,Salma Soliman,Senior Dev,Engineering,90781,Employee Referral,20370,Nour Ali
+EG-EMP-1704,Laila Farid,DevOps,Engineering,39485,LinkedIn,0,
+EG-EMP-1705,Salma Soliman,Account Manager,Sales/HR,72857,LinkedIn,0,
+EG-EMP-1706,Laila Soliman,HR Specialist,Sales/HR,45422,Recruiter,0,
+EG-EMP-1707,Dina Hassan,HR Specialist,Sales/HR,46022,Employee Referral,10000,Omar Mansour
+EG-EMP-1708,Youssef Farid,Account Manager,Sales/HR,70236,Direct,0,
+EG-EMP-1709,Youssef Khalil,ML Engineer,Data Science,56787,Employee Referral,10000,Mostafa Ibrahim
+EG-EMP-1710,Ahmed Reda,ML Engineer,Data Science,42873,Employee Referral,10000,Hoda Khalil
+EG-EMP-1711,Nour Mahmoud,Junior Dev,Engineering,26058,Employee Referral,5000,Dina Ali
+EG-EMP-1712,Omar Mansour,HR Specialist,Sales/HR,44159,Employee Referral,10000,Ahmed Hassan
+EG-EMP-1713,Dina Khalil,Data Scientist,Data Science,44250,LinkedIn,0,
+EG-EMP-1714,Youssef Said,Sales Executive,Sales/HR,53074,Direct,0,
+EG-EMP-1715,Laila Said,ML Engineer,Data Science,44215,LinkedIn,0,
+EG-EMP-1716,Omar Mahmoud,Frontend Dev,Engineering,57954,Recruiter,0,
+EG-EMP-1717,Nour Ali,HR Specialist,Sales/HR,48466,Employee Referral,10000,Mariam Soliman
+EG-EMP-1718,Khaled Ali,Data Analyst,Data Science,39357,Employee Referral,10000,Tarek Ali
+EG-EMP-1719,Tarek Ali,HR Specialist,Sales/HR,35334,Employee Referral,10000,Kareem Ali
+EG-EMP-1720,Ahmed Mahmoud,Data Analyst,Data Science,63806,Employee Referral,10000,Mariam Ali
+EG-EMP-1721,Youssef Khalil,HR Manager,Sales/HR,113870,Employee Referral,16189,Hoda Mahmoud
+EG-EMP-1722,Khaled Khalil,Sales Executive,Sales/HR,58417,Employee Referral,10000,Mariam Mahmoud
+EG-EMP-1723,Yasmine Soliman,QA Engineer,Engineering,50274,Recruiter,0,
+EG-EMP-1724,Omar Khalil,HR Specialist,Sales/HR,60076,Employee Referral,10000,Nour Said
+EG-EMP-1725,Tarek Farid,HR Specialist,Sales/HR,55268,Direct,0,
+EG-EMP-1726,Omar Hassan,HR Specialist,Sales/HR,58700,Employee Referral,10000,Nour Reda
+EG-EMP-1727,Yasmine Soliman,Account Manager,Sales/HR,82524,Direct,0,
+EG-EMP-1728,Hoda Said,Account Manager,Sales/HR,139625,Direct,0,
+EG-EMP-1729,Yasmine Mansour,DevOps,Engineering,44771,LinkedIn,0,
+EG-EMP-1730,Ahmed Khalil,HR Specialist,Sales/HR,49554,Employee Referral,10000,Hoda Ali
+EG-EMP-1731,Ahmed Mahmoud,Data Analyst,Data Science,53305,Recruiter,0,
+EG-EMP-1732,Youssef Reda,Data Scientist,Data Science,54923,Employee Referral,10000,Nour Khalil
+EG-EMP-1733,Mostafa Ali,Junior Dev,Engineering,21066,Employee Referral,5000,Yasmine Ibrahim
+EG-EMP-1734,Youssef Farid,Data Scientist,Data Science,42488,Direct,0,
+EG-EMP-1735,Youssef Ali,HR Manager,Sales/HR,110348,Direct,0,
+EG-EMP-1736,Tarek Hassan,Sales Executive,Sales/HR,60678,Employee Referral,10000,Mariam Farid
+EG-EMP-1737,Youssef Said,Data Analyst,Data Science,54964,Direct,0,
+EG-EMP-1738,Youssef Khalil,Junior Dev,Engineering,21926,Direct,0,
+EG-EMP-1739,Hoda Mahmoud,Data Scientist,Data Science,57272,Employee Referral,10000,Dina Farid
+EG-EMP-1740,Nour Mahmoud,Backend Dev,Engineering,39048,Recruiter,0,
+EG-EMP-1741,Yasmine Farid,Data Analyst,Data Science,62138,Employee Referral,10000,Yasmine Said
+EG-EMP-1742,Mariam Said,Data Scientist,Data Science,45386,Direct,0,
+EG-EMP-1743,Youssef Mansour,ML Engineer,Data Science,39184,Direct,0,
+EG-EMP-1744,Tarek Said,Data Analyst,Data Science,43865,Direct,0,
+EG-EMP-1745,Hoda Reda,Data Scientist,Data Science,39994,Recruiter,0,
+EG-EMP-1746,Mostafa Khalil,HR Manager,Sales/HR,94529,Employee Referral,17447,Ahmed Farid
+EG-EMP-1747,Salma Said,HR Specialist,Sales/HR,49297,Recruiter,0,
+EG-EMP-1748,Laila Soliman,Data Scientist,Data Science,43066,Direct,0,
+EG-EMP-1749,Laila Ibrahim,Junior Dev,Engineering,18606,Recruiter,0,
+EG-EMP-1750,Mariam Reda,Data Analyst,Data Science,64919,Employee Referral,10000,Youssef Khalil
+EG-EMP-1751,Hoda Ibrahim,Account Manager,Sales/HR,108415,Employee Referral,22901,Hoda Soliman
+EG-EMP-1752,Laila Hassan,Data Scientist,Data Science,44950,Direct,0,
+EG-EMP-1753,Dina Khalil,Tech Lead,Engineering,95377,Recruiter,0,
+EG-EMP-1754,Laila Said,Tech Lead,Engineering,87419,LinkedIn,0,
+EG-EMP-1755,Youssef Soliman,Tech Lead,Engineering,130912,LinkedIn,0,
+EG-EMP-1756,Dina Soliman,Sales Executive,Sales/HR,51507,Employee Referral,10000,Salma Farid
+EG-EMP-1757,Mariam Reda,Data Scientist,Data Science,47838,Employee Referral,10000,Mariam Said
+EG-EMP-1758,Tarek Khalil,ML Engineer,Data Science,64944,Employee Referral,10000,Youssef Said
+EG-EMP-1759,Ahmed Said,Sales Executive,Sales/HR,45182,LinkedIn,0,
+EG-EMP-1760,Omar Reda,Data Analyst,Data Science,58475,LinkedIn,0,
+EG-EMP-1761,Mostafa Ali,Data Scientist,Data Science,59497,Recruiter,0,
+EG-EMP-1762,Yasmine Khalil,ML Engineer,Data Science,50991,Direct,0,
+EG-EMP-1763,Hoda Ali,Frontend Dev,Engineering,46715,Recruiter,0,
+EG-EMP-1764,Salma Hassan,HR Specialist,Sales/HR,56056,Employee Referral,10000,Dina Reda
+EG-EMP-1765,Salma Said,HR Manager,Sales/HR,118260,Employee Referral,19827,Khaled Hassan
+EG-EMP-1766,Mariam Mansour,Data Analyst,Data Science,35696,Direct,0,
+EG-EMP-1767,Salma Reda,Junior Dev,Engineering,18838,Direct,0,
+EG-EMP-1768,Hoda Farid,Tech Lead,Engineering,87434,Recruiter,0,
+EG-EMP-1769,Tarek Ibrahim,Data Scientist,Data Science,37207,Direct,0,
+EG-EMP-1770,Laila Khalil,DevOps,Engineering,46380,Recruiter,0,
+EG-EMP-1771,Omar Reda,Sales Executive,Sales/HR,59430,LinkedIn,0,
+EG-EMP-1772,Khaled Said,ML Engineer,Data Science,47938,Employee Referral,10000,Salma Ali
+EG-EMP-1773,Kareem Soliman,Data Scientist,Data Science,37846,Employee Referral,10000,Nour Reda
+EG-EMP-1774,Omar Soliman,Backend Dev,Engineering,48932,Employee Referral,10000,Dina Said
+EG-EMP-1775,Hoda Farid,Data Analyst,Data Science,44719,Recruiter,0,
+EG-EMP-1776,Youssef Farid,ML Engineer,Data Science,61359,Employee Referral,10000,Salma Said
+EG-EMP-1777,Tarek Mansour,ML Engineer,Data Science,54137,Employee Referral,10000,Khaled Farid
+EG-EMP-1778,Kareem Mahmoud,Frontend Dev,Engineering,41408,Recruiter,0,
+EG-EMP-1779,Nour Ibrahim,ML Engineer,Data Science,59337,Employee Referral,10000,Tarek Mansour
+EG-EMP-1780,Ahmed Soliman,Backend Dev,Engineering,51211,Recruiter,0,
+EG-EMP-1781,Yasmine Ibrahim,Sales Executive,Sales/HR,61245,Direct,0,
+EG-EMP-1782,Khaled Farid,QA Engineer,Engineering,53097,Employee Referral,10000,Nour Khalil
+EG-EMP-1783,Ahmed Reda,HR Specialist,Sales/HR,45237,Employee Referral,10000,Mariam Reda
+EG-EMP-1784,Hoda Khalil,Sales Executive,Sales/HR,62383,Employee Referral,10000,Tarek Soliman
+EG-EMP-1785,Omar Khalil,ML Engineer,Data Science,64655,Employee Referral,10000,Mostafa Mansour
+EG-EMP-1786,Omar Soliman,DevOps,Engineering,41830,Recruiter,0,
+EG-EMP-1787,Tarek Said,Data Analyst,Data Science,62084,Employee Referral,10000,Tarek Reda
+EG-EMP-1788,Salma Reda,Data Analyst,Data Science,60235,Employee Referral,10000,Kareem Khalil
+EG-EMP-1789,Hoda Soliman,Junior Dev,Engineering,23210,Employee Referral,5000,Khaled Mansour
+EG-EMP-1790,Laila Ali,Data Analyst,Data Science,58271,LinkedIn,0,
+EG-EMP-1791,Yasmine Reda,Sales Executive,Sales/HR,46556,Recruiter,0,
+EG-EMP-1792,Ahmed Soliman,HR Manager,Sales/HR,101149,Employee Referral,22489,Nour Khalil
+EG-EMP-1793,Salma Farid,HR Manager,Sales/HR,128107,LinkedIn,0,
+EG-EMP-1794,Tarek Reda,Backend Dev,Engineering,48160,Employee Referral,10000,Ahmed Mahmoud
+EG-EMP-1795,Hoda Reda,ML Engineer,Data Science,50885,Employee Referral,10000,Khaled Ali
+EG-EMP-1796,Khaled Farid,ML Engineer,Data Science,42576,LinkedIn,0,
+EG-EMP-1797,Yasmine Hassan,Backend Dev,Engineering,38974,Direct,0,
+EG-EMP-1798,Mariam Mansour,DevOps,Engineering,52170,Employee Referral,10000,Laila Said
+EG-EMP-1799,Khaled Mansour,Junior Dev,Engineering,28704,Employee Referral,5000,Dina Reda
+EG-EMP-1800,Tarek Reda,Sales Executive,Sales/HR,35232,Employee Referral,10000,Ahmed Reda
+EG-EMP-1801,Ahmed Hassan,Frontend Dev,Engineering,37560,Recruiter,0,
+EG-EMP-1802,Khaled Hassan,ML Engineer,Data Science,54381,Employee Referral,10000,Salma Soliman
+EG-EMP-1803,Laila Said,Data Analyst,Data Science,37167,LinkedIn,0,
+EG-EMP-1804,Mostafa Hassan,Senior Dev,Engineering,77795,LinkedIn,0,
+EG-EMP-1805,Mostafa Hassan,Data Analyst,Data Science,38231,LinkedIn,0,
+EG-EMP-1806,Youssef Soliman,QA Engineer,Engineering,39112,Employee Referral,10000,Omar Mahmoud
+EG-EMP-1807,Salma Soliman,HR Specialist,Sales/HR,55432,Employee Referral,10000,Yasmine Soliman
+EG-EMP-1808,Nour Reda,HR Specialist,Sales/HR,54622,Employee Referral,10000,Dina Farid
+EG-EMP-1809,Dina Soliman,Backend Dev,Engineering,64383,Direct,0,
+EG-EMP-1810,Yasmine Hassan,DevOps,Engineering,47761,LinkedIn,0,
+EG-EMP-1811,Ahmed Farid,Sales Executive,Sales/HR,63689,Employee Referral,10000,Khaled Hassan
+EG-EMP-1812,Ahmed Ibrahim,DevOps,Engineering,46731,Recruiter,0,
+EG-EMP-1813,Youssef Farid,Backend Dev,Engineering,42263,LinkedIn,0,
+EG-EMP-1814,Yasmine Said,Frontend Dev,Engineering,49082,Direct,0,
+EG-EMP-1815,Mariam Khalil,Data Scientist,Data Science,35455,LinkedIn,0,
+EG-EMP-1816,Dina Khalil,Data Scientist,Data Science,57665,Employee Referral,10000,Salma Said
+EG-EMP-1817,Mariam Mahmoud,ML Engineer,Data Science,57535,Direct,0,
+EG-EMP-1818,Yasmine Farid,Account Manager,Sales/HR,113534,Recruiter,0,
+EG-EMP-1819,Kareem Ali,Backend Dev,Engineering,35035,Employee Referral,10000,Kareem Farid
+EG-EMP-1820,Mariam Mansour,Account Manager,Sales/HR,111925,Direct,0,
+EG-EMP-1821,Salma Mansour,HR Manager,Sales/HR,103456,Employee Referral,20492,Youssef Khalil
+EG-EMP-1822,Khaled Reda,HR Specialist,Sales/HR,53096,LinkedIn,0,
+EG-EMP-1823,Ahmed Reda,Frontend Dev,Engineering,37204,Employee Referral,10000,Dina Mahmoud
+EG-EMP-1824,Khaled Khalil,Sales Executive,Sales/HR,51461,Employee Referral,10000,Nour Ali
+EG-EMP-1825,Salma Soliman,HR Manager,Sales/HR,89234,Direct,0,
+EG-EMP-1826,Tarek Farid,Frontend Dev,Engineering,55111,Employee Referral,10000,Salma Khalil
+EG-EMP-1827,Mostafa Khalil,Data Analyst,Data Science,64220,Recruiter,0,
+EG-EMP-1828,Omar Ibrahim,DevOps,Engineering,52756,Employee Referral,10000,Nour Soliman
+EG-EMP-1829,Ahmed Said,DevOps,Engineering,51190,Direct,0,
+EG-EMP-1830,Mariam Ali,Tech Lead,Engineering,107924,Employee Referral,16489,Mariam Ali
+EG-EMP-1831,Laila Mansour,Tech Lead,Engineering,115969,Recruiter,0,
+EG-EMP-1832,Ahmed Said,ML Engineer,Data Science,59354,Employee Referral,10000,Omar Mahmoud
+EG-EMP-1833,Tarek Mahmoud,Frontend Dev,Engineering,51403,Recruiter,0,
+EG-EMP-1834,Mariam Mansour,Account Manager,Sales/HR,139862,Employee Referral,19016,Dina Soliman
+EG-EMP-1835,Hoda Mansour,Data Analyst,Data Science,49564,Employee Referral,10000,Kareem Mahmoud
+EG-EMP-1836,Mariam Ibrahim,Senior Dev,Engineering,71402,Employee Referral,21514,Mostafa Khalil
+EG-EMP-1837,Mostafa Farid,HR Specialist,Sales/HR,40938,Employee Referral,10000,Mostafa Soliman
+EG-EMP-1838,Khaled Reda,HR Manager,Sales/HR,94301,Employee Referral,18600,Mariam Mahmoud
+EG-EMP-1839,Mostafa Khalil,Data Analyst,Data Science,46500,Employee Referral,10000,Nour Reda
+EG-EMP-1840,Khaled Khalil,Data Analyst,Data Science,46583,Direct,0,
+EG-EMP-1841,Yasmine Mahmoud,Sales Executive,Sales/HR,46710,Employee Referral,10000,Hoda Reda
+EG-EMP-1842,Yasmine Mansour,Sales Executive,Sales/HR,41632,Employee Referral,10000,Laila Hassan
+EG-EMP-1843,Mostafa Khalil,Data Scientist,Data Science,41655,Recruiter,0,
+EG-EMP-1844,Hoda Ibrahim,Sales Executive,Sales/HR,59882,Employee Referral,10000,Mariam Said
+EG-EMP-1845,Hoda Khalil,HR Manager,Sales/HR,90599,Recruiter,0,
+EG-EMP-1846,Ahmed Soliman,Data Analyst,Data Science,41692,Direct,0,
+EG-EMP-1847,Khaled Soliman,QA Engineer,Engineering,54249,Employee Referral,10000,Dina Ibrahim
+EG-EMP-1848,Mariam Said,Sales Executive,Sales/HR,53391,Direct,0,
+EG-EMP-1849,Nour Mahmoud,Data Scientist,Data Science,51627,Employee Referral,10000,Hoda Khalil
+EG-EMP-1850,Dina Ibrahim,HR Manager,Sales/HR,85259,Employee Referral,20457,Ahmed Soliman
+EG-EMP-1851,Mostafa Reda,Frontend Dev,Engineering,50108,Recruiter,0,
+EG-EMP-1852,Laila Reda,Data Analyst,Data Science,39236,Employee Referral,10000,Dina Farid
+EG-EMP-1853,Nour Farid,ML Engineer,Data Science,40541,Recruiter,0,
+EG-EMP-1854,Khaled Mahmoud,Junior Dev,Engineering,20644,Direct,0,
+EG-EMP-1855,Khaled Mahmoud,Tech Lead,Engineering,98248,Recruiter,0,
+EG-EMP-1856,Khaled Said,Sales Executive,Sales/HR,51869,Direct,0,
+EG-EMP-1857,Tarek Said,Sales Executive,Sales/HR,36297,Employee Referral,10000,Youssef Khalil
+EG-EMP-1858,Mariam Hassan,Data Scientist,Data Science,59960,Employee Referral,10000,Yasmine Ali
+EG-EMP-1859,Dina Mahmoud,Data Analyst,Data Science,59151,LinkedIn,0,
+EG-EMP-1860,Yasmine Ibrahim,Senior Dev,Engineering,135783,Employee Referral,24374,Youssef Khalil
+EG-EMP-1861,Khaled Ibrahim,Data Scientist,Data Science,38402,LinkedIn,0,
+EG-EMP-1862,Tarek Said,QA Engineer,Engineering,64469,LinkedIn,0,
+EG-EMP-1863,Mariam Said,Backend Dev,Engineering,46014,LinkedIn,0,
+EG-EMP-1864,Kareem Hassan,Senior Dev,Engineering,81662,Employee Referral,24604,Yasmine Mansour
+EG-EMP-1865,Tarek Khalil,Tech Lead,Engineering,135351,Employee Referral,19014,Mariam Hassan
+EG-EMP-1866,Ahmed Mansour,Junior Dev,Engineering,18479,Employee Referral,5000,Youssef Ali
+EG-EMP-1867,Khaled Mansour,DevOps,Engineering,55591,LinkedIn,0,
+EG-EMP-1868,Tarek Mansour,Sales Executive,Sales/HR,48891,LinkedIn,0,
+EG-EMP-1869,Ahmed Ibrahim,Data Analyst,Data Science,37663,LinkedIn,0,
+EG-EMP-1870,Youssef Reda,QA Engineer,Engineering,45027,Employee Referral,10000,Mariam Said
+EG-EMP-1871,Yasmine Mahmoud,Frontend Dev,Engineering,54447,Employee Referral,10000,Omar Farid
+EG-EMP-1872,Salma Khalil,Account Manager,Sales/HR,97978,Direct,0,
+EG-EMP-1873,Mostafa Farid,ML Engineer,Data Science,61196,LinkedIn,0,
+EG-EMP-1874,Yasmine Mansour,Senior Dev,Engineering,100172,LinkedIn,0,
+EG-EMP-1875,Mariam Farid,HR Manager,Sales/HR,71222,Recruiter,0,
+EG-EMP-1876,Youssef Soliman,DevOps,Engineering,44090,Recruiter,0,
+EG-EMP-1877,Mostafa Said,HR Specialist,Sales/HR,62682,Direct,0,
+EG-EMP-1878,Dina Ali,Data Scientist,Data Science,61839,LinkedIn,0,
+EG-EMP-1879,Dina Hassan,Data Analyst,Data Science,46598,Employee Referral,10000,Khaled Ibrahim
+EG-EMP-1880,Kareem Ali,Data Analyst,Data Science,44812,Employee Referral,10000,Dina Ibrahim
+EG-EMP-1881,Ahmed Said,Junior Dev,Engineering,23936,Direct,0,
+EG-EMP-1882,Nour Mahmoud,Backend Dev,Engineering,48183,Recruiter,0,
+EG-EMP-1883,Kareem Mahmoud,Data Scientist,Data Science,46890,LinkedIn,0,
+EG-EMP-1884,Kareem Soliman,Data Scientist,Data Science,64631,Direct,0,
+EG-EMP-1885,Tarek Khalil,Data Scientist,Data Science,52416,Direct,0,
+EG-EMP-1886,Yasmine Khalil,Tech Lead,Engineering,122708,Direct,0,
+EG-EMP-1887,Omar Ibrahim,DevOps,Engineering,43667,LinkedIn,0,
+EG-EMP-1888,Khaled Ali,HR Specialist,Sales/HR,37875,Direct,0,
+EG-EMP-1889,Laila Said,Backend Dev,Engineering,42638,Recruiter,0,
+EG-EMP-1890,Salma Ali,Senior Dev,Engineering,134756,Direct,0,
+EG-EMP-1891,Dina Soliman,ML Engineer,Data Science,64542,Employee Referral,10000,Tarek Reda
+EG-EMP-1892,Mostafa Hassan,ML Engineer,Data Science,59461,Employee Referral,10000,Salma Soliman
+EG-EMP-1893,Kareem Ali,Backend Dev,Engineering,53437,Employee Referral,10000,Yasmine Reda
+EG-EMP-1894,Mariam Mahmoud,HR Manager,Sales/HR,73255,Employee Referral,22759,Youssef Khalil
+EG-EMP-1895,Mostafa Reda,Backend Dev,Engineering,56132,Direct,0,
+EG-EMP-1896,Hoda Ali,Sales Executive,Sales/HR,64690,Employee Referral,10000,Salma Farid
+EG-EMP-1897,Hoda Mahmoud,Tech Lead,Engineering,80328,LinkedIn,0,
+EG-EMP-1898,Ahmed Soliman,Account Manager,Sales/HR,114539,Employee Referral,19897,Kareem Mahmoud
+EG-EMP-1899,Hoda Reda,Data Scientist,Data Science,50678,Employee Referral,10000,Ahmed Soliman
+EG-EMP-1900,Omar Mansour,HR Manager,Sales/HR,139664,Employee Referral,23552,Khaled Ali
+EG-EMP-1901,Yasmine Mahmoud,Tech Lead,Engineering,126071,Direct,0,
+EG-EMP-1902,Dina Hassan,HR Manager,Sales/HR,88108,Employee Referral,20504,Laila Soliman
+EG-EMP-1903,Nour Mahmoud,Senior Dev,Engineering,128851,LinkedIn,0,
+EG-EMP-1904,Dina Farid,Sales Executive,Sales/HR,41679,Employee Referral,10000,Yasmine Farid
+EG-EMP-1905,Kareem Hassan,HR Manager,Sales/HR,93456,Employee Referral,20303,Laila Said
+EG-EMP-1906,Salma Said,Sales Executive,Sales/HR,53297,Recruiter,0,
+EG-EMP-1907,Hoda Soliman,Senior Dev,Engineering,78845,LinkedIn,0,
+EG-EMP-1908,Hoda Said,Account Manager,Sales/HR,120872,Recruiter,0,
+EG-EMP-1909,Laila Reda,Junior Dev,Engineering,29442,LinkedIn,0,
+EG-EMP-1910,Salma Ali,HR Specialist,Sales/HR,42506,LinkedIn,0,
+EG-EMP-1911,Mostafa Mahmoud,QA Engineer,Engineering,60899,Employee Referral,10000,Laila Mahmoud
+EG-EMP-1912,Youssef Ali,Account Manager,Sales/HR,139745,Direct,0,
+EG-EMP-1913,Yasmine Farid,Frontend Dev,Engineering,61629,Employee Referral,10000,Nour Mahmoud
+EG-EMP-1914,Youssef Mansour,HR Manager,Sales/HR,99483,Employee Referral,23840,Mostafa Mahmoud
+EG-EMP-1915,Laila Said,Tech Lead,Engineering,88576,LinkedIn,0,
+EG-EMP-1916,Tarek Mahmoud,Sales Executive,Sales/HR,38814,LinkedIn,0,
+EG-EMP-1917,Hoda Reda,Data Scientist,Data Science,62286,Employee Referral,10000,Youssef Khalil
+EG-EMP-1918,Ahmed Said,Data Analyst,Data Science,40251,Employee Referral,10000,Khaled Ali
+EG-EMP-1919,Mariam Mahmoud,DevOps,Engineering,64573,Employee Referral,10000,Laila Ali
+EG-EMP-1920,Omar Farid,Senior Dev,Engineering,72019,Direct,0,
+EG-EMP-1921,Nour Hassan,Backend Dev,Engineering,45736,LinkedIn,0,
+EG-EMP-1922,Hoda Ibrahim,Data Scientist,Data Science,64758,Employee Referral,10000,Mostafa Khalil
+EG-EMP-1923,Salma Soliman,ML Engineer,Data Science,53923,Recruiter,0,
+EG-EMP-1924,Mariam Ali,Junior Dev,Engineering,31684,Employee Referral,5000,Mostafa Mahmoud
+EG-EMP-1925,Dina Hassan,ML Engineer,Data Science,40474,Employee Referral,10000,Tarek Soliman
+EG-EMP-1926,Omar Farid,QA Engineer,Engineering,55192,Employee Referral,10000,Dina Soliman
+EG-EMP-1927,Salma Khalil,Account Manager,Sales/HR,113212,Employee Referral,20861,Tarek Ibrahim
+EG-EMP-1928,Mostafa Reda,HR Specialist,Sales/HR,57529,Employee Referral,10000,Dina Mahmoud
+EG-EMP-1929,Nour Ali,ML Engineer,Data Science,41331,LinkedIn,0,
+EG-EMP-1930,Mostafa Farid,Backend Dev,Engineering,49388,LinkedIn,0,
+EG-EMP-1931,Tarek Said,Data Analyst,Data Science,45897,Recruiter,0,
+EG-EMP-1932,Kareem Soliman,Data Analyst,Data Science,64749,Employee Referral,10000,Kareem Farid
+EG-EMP-1933,Dina Reda,Junior Dev,Engineering,26891,Recruiter,0,
+EG-EMP-1934,Dina Reda,HR Specialist,Sales/HR,52934,Employee Referral,10000,Laila Reda
+EG-EMP-1935,Nour Farid,Senior Dev,Engineering,100558,Direct,0,
+EG-EMP-1936,Laila Mansour,Senior Dev,Engineering,74548,Employee Referral,22074,Khaled Said
+EG-EMP-1937,Youssef Farid,HR Manager,Sales/HR,96978,Employee Referral,18312,Dina Reda
+EG-EMP-1938,Yasmine Mahmoud,HR Manager,Sales/HR,117207,Employee Referral,17816,Tarek Soliman
+EG-EMP-1939,Ahmed Soliman,Sales Executive,Sales/HR,46685,Recruiter,0,
+EG-EMP-1940,Khaled Soliman,HR Manager,Sales/HR,127729,LinkedIn,0,
+EG-EMP-1941,Salma Mahmoud,Data Scientist,Data Science,60011,Employee Referral,10000,Omar Soliman
+EG-EMP-1942,Dina Reda,ML Engineer,Data Science,53759,Employee Referral,10000,Tarek Mansour
+EG-EMP-1943,Hoda Mansour,HR Specialist,Sales/HR,63023,Direct,0,
+EG-EMP-1944,Mostafa Soliman,Sales Executive,Sales/HR,38725,Employee Referral,10000,Kareem Reda
+EG-EMP-1945,Mariam Farid,Sales Executive,Sales/HR,57551,LinkedIn,0,
+EG-EMP-1946,Salma Ali,ML Engineer,Data Science,61438,LinkedIn,0,
+EG-EMP-1947,Mariam Ali,QA Engineer,Engineering,52983,Employee Referral,10000,Dina Ali
+EG-EMP-1948,Laila Khalil,Frontend Dev,Engineering,39227,Recruiter,0,
+EG-EMP-1949,Laila Soliman,HR Specialist,Sales/HR,58771,Employee Referral,10000,Ahmed Soliman
+EG-EMP-1950,Mostafa Khalil,Tech Lead,Engineering,133551,Employee Referral,24206,Dina Mahmoud
+EG-EMP-1951,Tarek Hassan,ML Engineer,Data Science,35204,Direct,0,
+EG-EMP-1952,Ahmed Mahmoud,Sales Executive,Sales/HR,51570,Employee Referral,10000,Dina Hassan
+EG-EMP-1953,Kareem Ibrahim,QA Engineer,Engineering,57370,Recruiter,0,
+EG-EMP-1954,Youssef Reda,Data Analyst,Data Science,62473,Employee Referral,10000,Kareem Ali
+EG-EMP-1955,Yasmine Farid,Junior Dev,Engineering,26473,Employee Referral,5000,Mostafa Soliman
+EG-EMP-1956,Youssef Farid,Data Analyst,Data Science,64268,Employee Referral,10000,Mostafa Mansour
+EG-EMP-1957,Youssef Mahmoud,HR Manager,Sales/HR,109837,Recruiter,0,
+EG-EMP-1958,Hoda Hassan,QA Engineer,Engineering,59823,Employee Referral,10000,Tarek Ali
+EG-EMP-1959,Dina Mahmoud,Account Manager,Sales/HR,102273,Employee Referral,16770,Nour Mansour
+EG-EMP-1960,Omar Khalil,ML Engineer,Data Science,56130,Employee Referral,10000,Nour Hassan
+EG-EMP-1961,Yasmine Mahmoud,Data Analyst,Data Science,38286,Direct,0,
+EG-EMP-1962,Mariam Mansour,ML Engineer,Data Science,57728,Direct,0,
+EG-EMP-1963,Laila Farid,Tech Lead,Engineering,134254,Direct,0,
+EG-EMP-1964,Ahmed Soliman,Sales Executive,Sales/HR,46769,Direct,0,
+EG-EMP-1965,Khaled Hassan,DevOps,Engineering,59834,LinkedIn,0,
+EG-EMP-1966,Nour Hassan,Senior Dev,Engineering,105343,LinkedIn,0,
+EG-EMP-1967,Youssef Farid,HR Specialist,Sales/HR,38184,Direct,0,
+EG-EMP-1968,Kareem Farid,ML Engineer,Data Science,61764,LinkedIn,0,
+EG-EMP-1969,Khaled Mahmoud,ML Engineer,Data Science,57720,Direct,0,
+EG-EMP-1970,Nour Farid,Account Manager,Sales/HR,73175,LinkedIn,0,
+EG-EMP-1971,Tarek Mahmoud,Frontend Dev,Engineering,43739,Employee Referral,10000,Yasmine Said
+EG-EMP-1972,Ahmed Hassan,Account Manager,Sales/HR,113406,Employee Referral,22286,Youssef Ali
+EG-EMP-1973,Nour Said,Account Manager,Sales/HR,125570,Recruiter,0,
+EG-EMP-1974,Salma Reda,Account Manager,Sales/HR,108206,Employee Referral,17160,Omar Farid
+EG-EMP-1975,Mostafa Reda,ML Engineer,Data Science,55307,Direct,0,
+EG-EMP-1976,Salma Farid,Frontend Dev,Engineering,52492,LinkedIn,0,
+EG-EMP-1977,Mariam Farid,Data Analyst,Data Science,52887,Employee Referral,10000,Yasmine Farid
+EG-EMP-1978,Yasmine Hassan,Backend Dev,Engineering,59381,LinkedIn,0,
+EG-EMP-1979,Nour Khalil,HR Manager,Sales/HR,71474,LinkedIn,0,
+EG-EMP-1980,Omar Khalil,ML Engineer,Data Science,40944,Direct,0,
+EG-EMP-1981,Omar Said,DevOps,Engineering,48577,Employee Referral,10000,Yasmine Said
+EG-EMP-1982,Mariam Said,DevOps,Engineering,44386,Employee Referral,10000,Mostafa Khalil
+EG-EMP-1983,Tarek Ali,HR Specialist,Sales/HR,49080,LinkedIn,0,
+EG-EMP-1984,Nour Mansour,HR Manager,Sales/HR,76778,Direct,0,
+EG-EMP-1985,Tarek Ibrahim,Tech Lead,Engineering,89473,Recruiter,0,
+EG-EMP-1986,Omar Khalil,Sales Executive,Sales/HR,41156,Employee Referral,10000,Laila Hassan
+EG-EMP-1987,Kareem Mansour,HR Specialist,Sales/HR,41686,Employee Referral,10000,Yasmine Farid
+EG-EMP-1988,Mostafa Soliman,Data Analyst,Data Science,45914,LinkedIn,0,
+EG-EMP-1989,Yasmine Reda,Tech Lead,Engineering,81183,LinkedIn,0,
+EG-EMP-1990,Mariam Mansour,Sales Executive,Sales/HR,64977,LinkedIn,0,
+EG-EMP-1991,Mostafa Ali,HR Manager,Sales/HR,130191,Employee Referral,16384,Nour Ali
+EG-EMP-1992,Ahmed Mansour,Sales Executive,Sales/HR,60414,Employee Referral,10000,Salma Ibrahim
+EG-EMP-1993,Dina Reda,Account Manager,Sales/HR,84639,Direct,0,
+EG-EMP-1994,Ahmed Farid,HR Manager,Sales/HR,95010,Employee Referral,23233,Laila Ali
+EG-EMP-1995,Mostafa Ibrahim,Data Analyst,Data Science,54449,Recruiter,0,
+EG-EMP-1996,Nour Mansour,Sales Executive,Sales/HR,52829,Employee Referral,10000,Khaled Reda
+EG-EMP-1997,Nour Soliman,Data Scientist,Data Science,42650,LinkedIn,0,
+EG-EMP-1998,Omar Soliman,QA Engineer,Engineering,56900,LinkedIn,0,
+EG-EMP-1999,Omar Hassan,Junior Dev,Engineering,30186,Employee Referral,5000,Omar Mansour
