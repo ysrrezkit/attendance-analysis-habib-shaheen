@@ -6,23 +6,14 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 from huggingface_hub import InferenceClient
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Load and prepare HR Dataset
-try:
-    df = pd.read_csv("employees.csv")
-except FileNotFoundError:
-    import io
-    logger.warning("employees.csv not found, using placeholder layout logic.")
-    df = pd.DataFrame(columns=["Employee ID", "Name", "Role", "Department", "Monthly Salary (EGP)", "Source", "Referral Bonus", "Referred By Name"])
+df = pd.read_csv("attendance_data.csv")
 
-# Clean numerical types
-df["Monthly Salary (EGP)"] = pd.to_numeric(df["Monthly Salary (EGP)"], errors='coerce').fillna(0)
-df["Referral Bonus"] = pd.to_numeric(df["Referral Bonus"], errors='coerce').fillna(0)
+df["Date"] = pd.to_datetime(df["Date"], errors='coerce')
+df["Day_of_Week"] = df["Date"].dt.day_name()
+df["Is_Present"] = df["Status"].str.contains("Present", case=False, na=False).astype(int)
 
 HF_TOKEN = os.getenv("HF_TOKEN")
 client = None
@@ -31,37 +22,36 @@ MODEL = None
 if HF_TOKEN:
     try:
         client = InferenceClient(token=HF_TOKEN)
-        logger.info("Hugging Face client initialized successfully.")
-        MODEL = "meta-llama/Meta-Llama-3-8B-Instruct" 
+        MODEL = "meta-llama/Meta-Llama-3-8B-Instruct"
     except Exception as e:
         logger.error(f"HF init error: {e}")
 
 def generate_insights(dataframe):
     if dataframe.empty or client is None or MODEL is None:
-        return "⚡ AI Insights are currently warming up. Adjust filters to update operational analysis."
+        return "AI Insights are currently warming up. Adjust filters to update operational analysis."
 
     try:
-        dataframe = dataframe.fillna(0)
-        summary_text = f"""
-Total Monthly Payroll: {dataframe['Monthly Salary (EGP)'].sum():,.0f} EGP
-Total Headcount: {dataframe['Employee ID'].nunique()}
-Unique Specialized Roles: {dataframe['Role'].nunique()}
-Total Referral Bonus Paid: {dataframe['Referral Bonus'].sum():,.0f} EGP
-Top Department Budget: {dataframe.groupby('Department')['Monthly Salary (EGP)'].sum().idxmax()}
-Primary Recruitment Source: {dataframe['Source'].value_counts().idxmax()}
-"""
+        attendance_counts = dataframe[dataframe["Is_Present"] == 1]["Name"].value_counts()
+        day_counts = dataframe[dataframe["Is_Present"] == 1]["Day_of_Week"].value_counts()
+        
+        most_present = attendance_counts.idxmax() if not attendance_counts.empty else "N/A"
+        least_present = attendance_counts.idxmin() if not attendance_counts.empty else "N/A"
+        most_present_day = day_counts.idxmax() if not day_counts.empty else "N/A"
+        least_present_day = day_counts.idxmin() if not day_counts.empty else "N/A"
 
+        summary_text = f"""
+Total Records: {len(dataframe)}
+Total Present Cases: {dataframe['Is_Present'].sum()}
+Most Present Employee: {most_present}
+Least Present Employee: {least_present}
+Highest Attendance Day: {most_present_day}
+Lowest Attendance Day: {least_present_day}
+"""
         messages = [
-            {"role": "system", "content": "You are a senior HR director and talent acquisition strategist. Provide 5 short, actionable, and professional insights based on the organizational data summary provided. your answers is breif short no more than 3 lines and no bolding only insights answer."},
+            {"role": "system", "content": "You are a senior HR director. Provide 10 short, actionable, and professional insights based on the attendance data summary provided. your answers is breif short no more than 3 lines and no bolding only insights answer."},
             {"role": "user", "content": summary_text}
         ]
-
-        response = client.chat_completion(
-            model=MODEL,
-            messages=messages,
-            max_tokens=300,
-            temperature=0.5,
-        )
+        response = client.chat_completion(model=MODEL, messages=messages, max_tokens=300, temperature=0.5)
         return response.choices[0].message.content
     except Exception as e:
         return f"AI system response: {str(e)[:200]}"
@@ -69,14 +59,12 @@ Primary Recruitment Source: {dataframe['Source'].value_counts().idxmax()}
 def calculate_kpis(df_):
     if df_.empty:
         return 0, 0, 0, 0
-    return (
-        df_["Monthly Salary (EGP)"].sum(),
-        df_["Employee ID"].nunique(),
-        df_["Role"].nunique(),
-        df_["Monthly Salary (EGP)"].mean()
-    )
+    total_records = len(df_)
+    total_present = df_["Is_Present"].sum()
+    attendance_rate = (total_present / total_records) * 100 if total_records > 0 else 0
+    unique_employees = df_["Employee ID"].nunique()
+    return total_records, total_present, attendance_rate, unique_employees
 
-# --- BEIGE WARM MINIMALIST STYLING ---
 BEIGE_BG_STYLE = {
     "background-color": "#fcfbfa",
     "color": "#2d2a26",
@@ -103,87 +91,70 @@ PLOTLY_LIGHT_LAYOUT = {
     "margin": {"t": 40, "b": 40, "l": 40, "r": 40}
 }
 
-# Cohesive soft warm accent colors
 COLOR_PALETTE = ["#c5a880", "#a3b19b", "#ce937b", "#8fa4a6"]
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
 server = app.server
-app.title = "Employee Analytics Dashboard"
+app.title = "Employee Attendance Dashboard"
 
 app.layout = html.Div(style=BEIGE_BG_STYLE, children=[
     dbc.Container([
         
         html.Div([
-            html.H1("Employee Analytics Dashboard", 
-                    style={"letter-spacing": "1px", "font-weight": "800", "color": "#2d2a26"}),
-            html.P("Real-time Employee Intelligence Dashboard", style={"color": "#7a756e", "font-size": "14px", "margin-top": "-5px"})
+            html.H1("Employee Attendance Dashboard", style={"letter-spacing": "1px", "font-weight": "800", "color": "#2d2a26"}),
+            html.P("Real-time Attendance Intelligence Dashboard", style={"color": "#7a756e", "font-size": "14px", "margin-top": "-5px"})
         ], className="text-center my-4"),
 
-        # Filter Section
         dbc.Row([
             dbc.Col([
                 html.Div(children=[
-                    html.Label("🏢 Corporate Department", style={"color": "#8c7653", "font-weight": "600", "margin-bottom": "6px"}),
+                    html.Label("Attendance Status", style={"color": "#8c7653", "font-weight": "600", "margin-bottom": "6px"}),
                     dcc.Dropdown(
-                        id="department-filter",
-                        options=[{"label": d, "value": d} for d in sorted(df["Department"].unique())] if not df.empty else [],
-                        value=list(df["Department"].unique()) if not df.empty else [],
+                        id="status-filter",
+                        options=[{"label": s, "value": s} for s in sorted(df["Status"].dropna().unique())] if not df.empty else [],
+                        value=list(df["Status"].dropna().unique()) if not df.empty else [],
                         multi=True
                     )
                 ])
-            ], md=4, className="mb-3"),
+            ], md=6, className="mb-3"),
 
             dbc.Col([
                 html.Div(children=[
-                    html.Label("🛠️ Operational Role", style={"color": "#8c7653", "font-weight": "600", "margin-bottom": "6px"}),
+                    html.Label("Day of Week", style={"color": "#8c7653", "font-weight": "600", "margin-bottom": "6px"}),
                     dcc.Dropdown(
-                        id="role-filter",
-                        options=[{"label": r, "value": r} for r in sorted(df["Role"].unique())] if not df.empty else [],
-                        value=list(df["Role"].unique()) if not df.empty else [],
+                        id="day-filter",
+                        options=[{"label": d, "value": d} for d in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]],
+                        value=["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                         multi=True
                     )
                 ])
-            ], md=4, className="mb-3"),
-
-            dbc.Col([
-                html.Div(children=[
-                    html.Label("🎯 Sourcing Channel", style={"color": "#8c7653", "font-weight": "600", "margin-bottom": "6px"}),
-                    dcc.Dropdown(
-                        id="source-filter",
-                        options=[{"label": s, "value": s} for s in sorted(df["Source"].unique())] if not df.empty else [],
-                        value=list(df["Source"].unique()) if not df.empty else [],
-                        multi=True
-                    )
-                ])
-            ], md=4, className="mb-3"),
+            ], md=6, className="mb-3"),
         ], className="mb-4"),
 
-        # KPI Metrics Cards Section
         dbc.Row([
             dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[
-                html.H6("MONTHLY PAYROLL BUDGET", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
-                html.H2(id="total-payroll", style={"color": "#aa7c57", "font-weight": "700"})
+                html.H6("TOTAL LOGGED DAYS", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
+                html.H2(id="total-records", style={"color": "#aa7c57", "font-weight": "700"})
             ]), md=3, className="mb-3"),
             
             dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[
-                html.H6("TOTAL ACTIVE HEADCOUNT", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
-                html.H2(id="total-headcount", style={"color": "#6e8268", "font-weight": "700"})
+                html.H6("TOTAL PRESENT DAYS", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
+                html.H2(id="total-present", style={"color": "#6e8268", "font-weight": "700"})
             ]), md=3, className="mb-3"),
             
             dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[
-                html.H6("UNIQUE SPECIALIZED ROLES", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
-                html.H2(id="unique-roles", style={"color": "#657d80", "font-weight": "700"})
+                html.H6("ATTENDANCE RATE", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
+                html.H2(id="attendance-rate", style={"color": "#657d80", "font-weight": "700"})
             ]), md=3, className="mb-3"),
             
             dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[
-                html.H6("AVERAGE MONTHLY SALARY", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
-                html.H2(id="avg-salary", style={"color": "#b8785d", "font-weight": "700"})
+                html.H6("TOTAL EMPLOYEES", style={"color": "#7a756e", "font-weight": "700", "letter-spacing": "1px"}),
+                html.H2(id="total-employees", style={"color": "#b8785d", "font-weight": "700"})
             ]), md=3, className="mb-3"),
         ], className="mb-4"),
 
-        # AI Insights Section
         html.Div(style={**BEIGE_CARD_STYLE, "background": "#ebdccb", "border-color": "#d5beab"}, children=[
-            html.H5("✨ Neural AI Workforce Insights", style={"color": "#5c4d3c", "font-weight": "700", "margin-bottom": "12px"}),
+            html.H5("Workforce Attendance Insights", style={"color": "#5c4d3c", "font-weight": "700", "margin-bottom": "12px"}),
             html.Div(id="ai-insights", style={
                 "color": "#3d352b", 
                 "whiteSpace": "pre-line", 
@@ -193,23 +164,19 @@ app.layout = html.Div(style=BEIGE_BG_STYLE, children=[
             })
         ], className="mb-4"),
 
-        # Row 1 Charts
         dbc.Row([
-            dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[dcc.Graph(id="salary-trend", config={"displayModeBar": False})]), md=6, className="mb-4"),
-            dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[dcc.Graph(id="category-chart", config={"displayModeBar": False})]), md=6, className="mb-4"),
+            dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[dcc.Graph(id="employee-attendance-chart", config={"displayModeBar": False})]), md=6, className="mb-4"),
+            dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[dcc.Graph(id="day-attendance-chart", config={"displayModeBar": False})]), md=6, className="mb-4"),
         ]),
 
-        # Row 2 Charts
         dbc.Row([
-            dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[dcc.Graph(id="city-chart", config={"displayModeBar": False})]), md=6, className="mb-4"),
-            dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[dcc.Graph(id="rep-chart", config={"displayModeBar": False})]), md=6, className="mb-4"),
+            dbc.Col(html.Div(style=BEIGE_CARD_STYLE, children=[dcc.Graph(id="status-distribution-chart", config={"displayModeBar": False})]), md=12, className="mb-4"),
         ]),
 
-        # Data Ledger Section
-        html.H4("Active Corporate Personnel Ledger", className="mt-2 mb-3", style={"color": "#4a4742", "font-weight": "600"}),
+        html.H4("Attendance Ledger", className="mt-2 mb-3", style={"color": "#4a4742", "font-weight": "600"}),
         html.Div(style={"border-radius": "12px", "overflow": "hidden", "border": "1px solid #e4dfd5"}, children=[
             dash_table.DataTable(
-                id="sales-table",
+                id="attendance-table",
                 page_size=10,
                 style_table={"overflowX": "auto"},
                 style_cell={
@@ -228,7 +195,7 @@ app.layout = html.Div(style=BEIGE_BG_STYLE, children=[
                 },
                 style_data_conditional=[{
                     'if': {'row_index': 'odd'},
-                    'backgroundColor': '#f4f1ea',
+                    'backgroundColor': '#f4f1ea', #type:ignore
                 }]
             )
         ], className="mb-5")
@@ -238,82 +205,70 @@ app.layout = html.Div(style=BEIGE_BG_STYLE, children=[
 
 @app.callback(
     [
-        Output("total-payroll", "children"),
-        Output("total-headcount", "children"),
-        Output("unique-roles", "children"),
-        Output("avg-salary", "children"),
-        Output("salary-trend", "figure"),
-        Output("category-chart", "figure"),
-        Output("city-chart", "figure"),
-        Output("rep-chart", "figure"),
-        Output("sales-table", "data"),
-        Output("sales-table", "columns"),
+        Output("total-records", "children"),
+        Output("total-present", "children"),
+        Output("attendance-rate", "children"),
+        Output("total-employees", "children"),
+        Output("employee-attendance-chart", "figure"),
+        Output("day-attendance-chart", "figure"),
+        Output("status-distribution-chart", "figure"),
+        Output("attendance-table", "data"),
+        Output("attendance-table", "columns"),
         Output("ai-insights", "children"),
     ],
     [
-        Input("department-filter", "value"),
-        Input("role-filter", "value"),
-        Input("source-filter", "value"),
+        Input("status-filter", "value"),
+        Input("day-filter", "value"),
     ]
 )
-def update_dashboard(departments, roles, sources):
-    departments = departments or list(df["Department"].unique())
-    roles = roles or list(df["Role"].unique())
-    sources = sources or list(df["Source"].unique())
+def update_dashboard(statuses, days):
+    statuses = statuses or list(df["Status"].dropna().unique())
+    days = days or list(df["Day_of_Week"].unique())
 
     filtered = df[
-        df["Department"].isin(departments) &
-        df["Role"].isin(roles) &
-        df["Source"].isin(sources)
+        df["Status"].isin(statuses) &
+        df["Day_of_Week"].isin(days)
     ]
 
-    payroll, headcount, unique_roles, avg_sal = calculate_kpis(filtered)
+    records, present, rate, employees = calculate_kpis(filtered)
 
     if not filtered.empty:
-        # Chart 1: Average Salary Scaling per Role Group
-        trend_df = filtered.groupby("Role")["Monthly Salary (EGP)"].mean().reset_index().sort_values(by="Monthly Salary (EGP)", ascending=False)
-        trend = px.bar(trend_df, x="Role", y="Monthly Salary (EGP)", title="Role Compensation Scaling (Avg EGP)")
-        trend.update_traces(marker_color="#c5a880", marker_line_color="#b0956f", marker_line_width=1)
+        emp_df = filtered.groupby("Name")["Is_Present"].sum().reset_index().sort_values(by="Is_Present", ascending=False)
+        top_bottom_emp = pd.concat([emp_df.head(5), emp_df.tail(5)]).drop_duplicates()
+        employee_chart = px.bar(top_bottom_emp, x="Name", y="Is_Present", title="Top and Bottom Employee Attendance (Total Days Present)")
+        employee_chart.update_traces(marker_color="#c5a880", marker_line_color="#b0956f", marker_line_width=1)
         
-        # Chart 2: Payroll Expenditures Allocated Across Corporate Departments
-        cat_df = filtered.groupby("Department")["Monthly Salary (EGP)"].sum().reset_index()
-        category = px.bar(cat_df, x="Department", y="Monthly Salary (EGP)", title="Payroll Budget Allocation Across Verticals")
-        category.update_traces(marker_color="#a3b19b", marker_line_color="#8d9c85", marker_line_width=1)
+        day_df = filtered.groupby("Day_of_Week")["Is_Present"].sum().reset_index()
+        day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+        day_df["Day_of_Week"] = pd.Categorical(day_df["Day_of_Week"], categories=day_order, ordered=True)
+        day_df = day_df.sort_values("Day_of_Week")
+        day_chart = px.bar(day_df, x="Day_of_Week", y="Is_Present", title="Attendance Analysis by Day of Week")
+        day_chart.update_traces(marker_color="#a3b19b", marker_line_color="#8d9c85", marker_line_width=1)
         
-        # Chart 3: Recruitment Channels Share
-        city_df = filtered.groupby("Source")["Employee ID"].count().reset_index().rename(columns={"Employee ID": "Count"})
-        city = px.pie(city_df, names="Source", values="Count", title="Recruitment Sourcing Share Channels", hole=0.4)
-        city.update_traces(textinfo='percent+label', marker=dict(colors=COLOR_PALETTE))
-        
-        # Chart 4: Top Employee Referral Networks
-        referral_df = filtered[filtered["Referred By Name"].notna() & (filtered["Referred By Name"] != "")]
-        rep_df = referral_df.groupby("Referred By Name")["Referral Bonus"].sum().reset_index().sort_values(by="Referral Bonus", ascending=True)
-        
-        if not rep_df.empty:
-            rep = px.bar(rep_df, x="Referral Bonus", y="Referred By Name", orientation='h', title="Top Sourcing Referral Pipelines (Bonus EGP)")
-            rep.update_traces(marker_color="#ce937b", marker_line_color="#b87f68", marker_line_width=1)
-        else:
-            rep = px.bar(title="Top Sourcing Referral Pipelines (No Data)")
+        status_df = filtered.groupby("Status")["Employee ID"].count().reset_index().rename(columns={"Employee ID": "Count"})
+        status_chart = px.pie(status_df, names="Status", values="Count", title="Attendance Status Distribution Channel Share", hole=0.4)
+        status_chart.update_traces(textinfo='percent+label', marker=dict(colors=COLOR_PALETTE))
     else:
-        trend, category, city, rep = px.bar(), px.bar(), px.pie(), px.bar()
+        employee_chart, day_chart, status_chart = px.bar(), px.bar(), px.pie()
 
-    for fig in [trend, category, city, rep]:
+    for fig in [employee_chart, day_chart, status_chart]:
         fig.update_layout(**PLOTLY_LIGHT_LAYOUT)
         fig.update_layout(title={"font": {"size": 14, "color": "#2d2a26"}})
 
-    city.update_layout(showlegend=False)
+    status_chart.update_layout(showlegend=False)
+
+    table_columns = [{"name": i, "id": i} for i in filtered.columns if i not in ["Is_Present", "Day_of_Week"]]
 
     return (
-        f"{payroll:,.0f} EGP",
-        f"{headcount:,}",
-        f"{unique_roles:,}",
-        f"{avg_sal:,.0f} EGP",
-        trend,
-        category,
-        city,
-        rep,
+        f"{records:,}",
+        f"{present:,}",
+        f"{rate:.1f}%",
+        f"{employees:,}",
+        employee_chart,
+        day_chart,
+        status_chart,
         filtered.to_dict("records"),
-        [{"name": i, "id": i} for i in filtered.columns],
+        table_columns,
         generate_insights(filtered)
     )
 
